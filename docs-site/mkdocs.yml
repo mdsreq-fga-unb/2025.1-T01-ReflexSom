@@ -1,0 +1,26 @@
+site_name: ReflexSom
+site_description: Documentação do projeto de software ReflexSom
+site_author: Davi M.
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: red
+      accent: black
+
+nav:
+  - Início: index.md
+  - Cenário atual do cliente e do negócio: cenario.md
+  - Visão do Produto e Projeto:
+    - Solução Proposta: solucao.md
+    - Estratégias de Engenharia de Software: estrategias.md
+    - Cronogramas e Entregas: cronograma.md
+    - Interação entre Equipe e Cliente: interacao.md
+  - Lições Aprendidas: licoes.md
+  - Apresentações:
+    - Unidade 1: unidade1.md
+
+extra_css:
+  - styles.css
+

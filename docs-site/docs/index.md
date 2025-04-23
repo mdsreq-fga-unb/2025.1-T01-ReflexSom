@@ -1,0 +1,44 @@
+# Reflex Som
+
+![Logo](ReflexSomLogo.PNG)
+
+# Introdução
+
+O projeto Reflex Som é um projeto desenvolvido durante o semestre 2025.1 na disciplina de Requisitos de Software na FTCE - UnB. O foco do projeto é impactar a agilidade do negócio e modernizar seu contato com o cliente. Para mais informações, consulte a Visão de Produto e Projeto.
+
+# Equipe - Team 7
+
+<table style="text-align: center;">
+  <tr>
+    <td><strong>Alisson Batista</strong></td>
+    <td><strong>Mateus de Castro Santos</strong></td>
+    <td><strong>Davi Mesquita Sousa</strong></td>
+  </tr>
+  <tr>
+    <td><img src="imagens/alissonreflexdevs.jpeg" class="img-circular"></td>
+    <td><img src="imagens/mateusreflexdevs.jpeg" class="img-circular"></td>
+    <td><img src="imagens/fotoDePerfil.jpg" class="img-circular"></td>
+  </tr>
+  <tr>
+    <td><strong>Ana Luiza Komatsu Aroeira</strong></td>
+    <td><strong>Maria Clara Alves de Sousa</strong></td>
+    <td><strong>Andre Gustavo Rabelo</strong></td>
+  </tr>
+  <tr>
+    <td><img src="imagens/anareflexdevs.jpeg" class="img-circular"></td>
+    <td><img src="imagens/clarareflexdevs.jpeg" class="img-circular"></td>
+    <td><img src="imagens/andrereflexdevs.jpeg" class="img-circular"></td>
+  </tr>
+</table>
+
+
+---
+
+# Histórico de Revisão
+
+| Data        | Versão | Descrição                                                                 | Autor   |
+|-------------|--------|---------------------------------------------------------------------------|---------|
+| 19/04/2025  | 1.0    | Criação            | Grupo   |
+| 21/04/2025  | 1.1    | Adicionando informações sobre Visão de Produto                                         | Grupo   |
+
+
