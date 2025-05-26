@@ -13,10 +13,10 @@
       
       
       
-        <link rel="prev" href="../requisitos/">
+        <link rel="prev" href="../casosUso/">
       
       
-        <link rel="next" href="../dordod/">
+        <link rel="next" href="../licoes/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Diagramas - ReflexSom</title>
+        <title>DoR e DoD - ReflexSom</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#casos-de-usos" class="md-skip">
+        <a href="#definition-of-ready-dor" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Diagramas
+              DoR e DoD
             
           </span>
         </div>
@@ -373,20 +373,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
           <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
@@ -402,7 +400,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             Requisitos de Software
@@ -436,6 +434,36 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../casosUso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagramas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -453,43 +481,13 @@
   
   
   <span class="md-ellipsis">
-    Diagramas
-    
-  </span>
-  
-
-      </a>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../dordod/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
     DoR e DoD
     
   </span>
   
 
       </a>
+      
     </li>
   
 
@@ -640,9 +638,28 @@
 
 
 
-<h1 id="casos-de-usos">Casos de Usos</h1>
+<h1 id="definition-of-ready-dor">DEFINITION OF READY (DoR)</h1>
+<p>Um item da lista de requisitos estará preparado para iniciar em uma iteração quando:</p>
+<ul>
+<li><strong>Descrição clara:</strong> Está claramente descrito e compreendido por todos.  Alterar. substituir por "não ambíguo"</li>
+<li><strong>Critérios de aceitação:</strong> Possui critérios objetivos e verificáveis.  </li>
+<li><strong>Priorização:</strong> Está devidamente priorizado no backlog.  </li>
+<li><strong>Estimativa de esforço:</strong> Contém avaliação de tempo/complexidade.  </li>
+<li><strong>Sem impedimentos:</strong> Não há bloqueios ou dependências externas. </li>
+</ul>
+<!-- - **Viabilidade técnica:** Pode ser implementado com as tecnologias atuais.   -->
+<!-- - **Valor para o cliente:** Tem benefício claro e justificável.   -->
+
 <hr />
-<h1 id="diagrama-de-atividades">Diagrama de Atividades</h1>
+<h1 id="definition-of-done-dod">DEFINITION OF DONE (DoD)</h1>
+<p>Um item da lista de requisitos será considerado feito quando:</p>
+<ul>
+<li><strong>Implementação completa:</strong> Está conforme os critérios de aceitação definidos.</li>
+<li><strong>Testes realizados:</strong> Funciona corretamente em todos os cenários testados. TESTE DE UNITÁRIO E DE INTEGRAÇÃO.</li>
+<li><strong>Integração concluída:</strong> Frontend e backend funcionando juntos adequadamente.</li>
+<li><strong>Versionamento e documentação:</strong> Código está no repositório e devidamente documentado.</li>
+<li><strong>Revisão de interface:</strong> Foi validada conforme o design do projeto.</li>
+</ul>
 
 
 
