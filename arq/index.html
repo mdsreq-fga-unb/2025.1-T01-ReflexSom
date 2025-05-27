@@ -77,6 +77,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#1-baixa-complexidade-inicial" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -531,6 +536,19 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Arquitetura
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -542,6 +560,68 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-baixa-complexidade-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Baixa Complexidade Inicial
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-estrutura-modular-para-organizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Estrutura Modular para Organização
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-api-restful" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. API RESTful
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-facilidade-de-evolucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Facilidade de Evolução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-custo-reduzido-de-infraestrutura" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Custo reduzido de infraestrutura
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -685,6 +765,59 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-baixa-complexidade-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Baixa Complexidade Inicial
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-estrutura-modular-para-organizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Estrutura Modular para Organização
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-api-restful" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. API RESTful
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-facilidade-de-evolucao" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Facilidade de Evolução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-custo-reduzido-de-infraestrutura" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Custo reduzido de infraestrutura
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -701,7 +834,25 @@
 
   <h1>Arquitetura</h1>
 
-
+<p>Optamos por uma arquitetura modular monolítica com API REST para o MVP da solução da Reflex Som devido a uma combinação de simplicidade, rapidez de entrega e facilidade de manutenção, características essenciais em fases iniciais de produto.  Abaixo os principais motivos da escolha:</p>
+<h2 id="1-baixa-complexidade-inicial">1. Baixa Complexidade Inicial</h2>
+<p>A arquitetura monolítica permite o desenvolvimento e a implantação de toda a aplicação como um único pacote, o que reduz significativamente a complexidade técnica para o time inicial, agilizando a entrega.</p>
+<hr />
+<h2 id="2-estrutura-modular-para-organizacao">2. Estrutura Modular para Organização</h2>
+<p>Mesmo sendo monolítico, o sistema é dividido em módulos bem definidos (autenticação, orçamentos, equipamentos, agendamentos, eventos), o que facilita a leitura do código, testes, manutenção e futura expansão do sistema.</p>
+<hr />
+<h2 id="3-api-restful">3. API RESTful</h2>
+<p>A adoção de uma API REST padroniza a comunicação entre o frontend (cliente, admin) e o backend, permitindo que o frontend evolua de forma independente e até seja reutilizado em outros canais (ex: aplicativo mobile no futuro).</p>
+<hr />
+<h2 id="4-facilidade-de-evolucao">4. Facilidade de Evolução</h2>
+<p>A modularização interna deixa o projeto preparado para uma eventual migração futura para microsserviços, se a demanda da empresa crescer. Os contratos de API já estarão definidos, facilitando essa transição.</p>
+<hr />
+<h2 id="5-custo-reduzido-de-infraestrutura">5. Custo reduzido de infraestrutura</h2>
+<p>Como tudo é executado dentro de uma única aplicação, os requisitos de infraestrutura são menores, permitindo o uso de hospedagens mais acessíveis (ex: VPS, Heroku, Render, Railway).</p>
+<hr />
+<p>Essa escolha foi feita com foco em viabilidade de curto prazo e flexibilidade para crescimento, garantindo que a Reflex Som possa validar rapidamente seu produto, entregar valor e planejar escalabilidade com base em dados reais de uso.</p>
+<hr />
+<p><img alt="Logo" src="../imagens/arq.png" /></p>
 
 
 
