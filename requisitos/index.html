@@ -385,19 +385,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Requisitos de Software
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -409,43 +396,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#funcionalidades-para-o-cliente" class="md-nav__link">
-    <span class="md-ellipsis">
-      Funcionalidades para o Cliente
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#funcionalidades-para-o-administrador" class="md-nav__link">
-    <span class="md-ellipsis">
-      Funcionalidades para o Administrador
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -742,32 +692,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#funcionalidades-para-o-cliente" class="md-nav__link">
-    <span class="md-ellipsis">
-      Funcionalidades para o Cliente
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#funcionalidades-para-o-administrador" class="md-nav__link">
-    <span class="md-ellipsis">
-      Funcionalidades para o Administrador
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -784,29 +708,24 @@
 
 <h1 id="requisitos-funcionais">REQUISITOS FUNCIONAIS</h1>
 <p>Para um maior detalhamento dos requisitos, <a href="https://github.com/orgs/mdsreq-fga-unb/projects/64/views/2">clique aqui para acessar o GitProject</a>.</p>
-<h2 id="funcionalidades-para-o-cliente">Funcionalidades para o Cliente</h2>
 <ul>
-<li>O cliente deve poder realizar cadastro.</li>
-<li>O cliente deve poder realizar login.</li>
-<li>O cliente deve poder realizar logoff.</li>
-<li>O sistema deve permitir o cliente editar os dados pessoais cadastrados.</li>
-<li>O sistema deve exibir lista de equipamentos disponíveis.</li>
-<li>O cliente deve ser capaz de buscar pelo nome do equipamento.</li>
-<li>O cliente deve poder adicionar equipamentos ao carrinho.</li>
-<li>O cliente deve poder remover equipamentos do carrinho.</li>
-<li>O sistema deve ser capaz de detalhar informações do equipamento.</li>
-<li>O sistema deve ser capaz de exibir histórico de reservas.</li>
-<li>O sistema deve ser capaz de criar orçamento de uma reserva.</li>
-</ul>
-<h2 id="funcionalidades-para-o-administrador">Funcionalidades para o Administrador</h2>
-<ul>
-<li>O sistema deve ser capaz de emitir relatórios de reservas.</li>
-<li>O administrador deve ser capaz de aprovar reserva solicitada.</li>
-<li>O administrador deve ser capaz de realizar consulta de equipamentos.</li>
-<li>O administrador deve ser capaz de consultar agenda de eventos.</li>
-<li>O administrador deve ser capaz de cancelar reserva já agendada.</li>
-<li>O administrador deve ser capaz de remover equipamento da lista.</li>
-<li>O administrador deve ser capaz de cadastrar equipamento na lista.</li>
+<li>Realizar cadastro.</li>
+<li>Realizar login.</li>
+<li>Realizar logoff.</li>
+<li>Editar os dados pessoais cadastrados do cliente.</li>
+<li>Exibir lista de equipamentos disponíveis.</li>
+<li>Adicionar equipamentos ao carrinho.</li>
+<li>Remover equipamentos do carrinho.</li>
+<li>Detalhar informações do equipamento.</li>
+<li>Exibir histórico de reservas.</li>
+<li>Criar orçamento de uma reserva.</li>
+<li>Emitir relatórios de reservas.</li>
+<li>Aprovar reserva solicitada.</li>
+<li>Realizar consulta de equipamentos.</li>
+<li>Consultar agenda de eventos.</li>
+<li>Cancelar reserva já agendada.</li>
+<li>Remover equipamento da lista.</li>
+<li>Cadastrar equipamento na lista.</li>
 </ul>
 <hr />
 <h1 id="requisitos-nao-funcionais">REQUISITOS NÃO FUNCIONAIS</h1>
@@ -822,26 +741,26 @@
 </thead>
 <tbody>
 <tr>
-<td>Ter respostas visuais para ações (como envio de orçamento, reserva, etc).</td>
+<td>Exibir uma confirmação visual (como mensagem ou alerta na tela) sempre que uma ação for concluída com sucesso, como envio de orçamento ou reserva de equipamento.</td>
 <td>Estar disponível pelo menos 99% do tempo, exceto em manutenções programadas.</td>
-<td>O site deve carregar completamente em menos de 3 segundos em conexões padrão.</td>
-<td>A arquitetura deve ser modular e escalável, para futura adição de novos módulos.</td>
+<td>O site deve carregar completamente em menos de 3 segundos.</td>
+<td>A arquitetura deve permitir a inclusão de novos módulos sem impactar o funcionamento dos módulos existentes.</td>
 </tr>
 <tr>
-<td>A interface deve possuir fluxo guiado para geração de orçamento e seleção.</td>
+<td>A interface deve guiar o usuário por etapas na seleção de equipamentos.</td>
 <td>Permitir mais de uma tentativa em caso de falha de envio de propostas.</td>
 <td>A busca por equipamentos deve responder em menos de 1 segundo com até 1000 itens no catálogo.</td>
-<td>O sistema deve estar documentado tanto para desenvolvedores quanto para operadores da empresa.</td>
+<td>O sistema deve estar documentado com manuais técnicos para desenvolvedores (incluindo estrutura do código e APIs) e com manuais operacionais para os operadores da empresa (incluindo instruções de uso, fluxos das funcionalidades e resolução de erros comuns).</td>
 </tr>
 <tr>
 <td></td>
-<td>Registrar automaticamente logs de erro e falhas.</td>
-<td>A plataforma deve suportar 50 usuários ativos simultâneos sem degradação perceptível.</td>
+<td>Registrar automaticamente logs de erro e falhas, contendo informações como data e hora, nível de severidade e mensagem de erro descritivo.</td>
+<td>A plataforma deve suportar 50 usuários ativos simultâneos.</td>
 <td></td>
 </tr>
 <tr>
 <td></td>
-<td>Backup automático periódico dos dados (clientes, orçamentos, contratos, equipamentos).</td>
+<td>Ser possível realizar backup automático periódico de todos os dados (clientes, orçamentos, contratos, equipamentos) a cada 24 horas.</td>
 <td>Relatórios e orçamentos devem ser gerados em tempo real sem bloqueio da interface.</td>
 <td></td>
 </tr>
