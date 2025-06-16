@@ -11,16 +11,26 @@ theme:
 
 nav:
   - Início: index.md
-  - Cenário atual do cliente e do negócio: cenario.md
-  - Visão do Produto e Projeto:
+  - Documento de visão: 
+    - Cenário atual do cliente e do negócio: cenario.md
     - Solução Proposta: solucao.md
     - Estratégias de Engenharia de Software: estrategias.md
+    - Engenharia de Requisitos: er.md
     - Cronogramas e Entregas: cronograma.md
-    - Interação entre Equipe e Cliente: interacao.md
+    - Interação entre Equipe e Cliente: equipe.md
+    - Requisitos de Software: requisitos.md
+    - DoR e DoD: dordod.md
+    - Lista de Requisitos:
+      - Priorização e MVP: priorizacao.md
+      - Diagramas: casosUso.md
+      - Mapa de Rastreabilidade: maparast.md
+      - Arquitetura: arq.md
+    - Referências Bibliográficas: ref.md
+  - Estudos de casos: 
+    - User Story Mapping: usm.md
   - Lições Aprendidas: licoes.md
   - Apresentações:
     - Unidade 1: unidade1.md
-
 extra_css:
   - styles.css
 

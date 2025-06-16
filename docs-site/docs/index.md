@@ -22,7 +22,7 @@ O projeto Reflex Som é um projeto desenvolvido durante o semestre 2025.1 na dis
   <tr>
     <td><strong>Ana Luiza Komatsu Aroeira</strong></td>
     <td><strong>Maria Clara Alves de Sousa</strong></td>
-    <td><strong>Andre Gustavo Rabelo</strong></td>
+    <td><strong>André Gustavo Rabelo do Nascimento</strong></td>
   </tr>
   <tr>
     <td><img src="imagens/anareflexdevs.jpeg" class="img-circular"></td>
@@ -39,6 +39,8 @@ O projeto Reflex Som é um projeto desenvolvido durante o semestre 2025.1 na dis
 | Data        | Versão | Descrição                                                                 | Autor   |
 |-------------|--------|---------------------------------------------------------------------------|---------|
 | 19/04/2025  | 1.0    | Criação            | Grupo   |
-| 21/04/2025  | 1.1    | Adicionando informações sobre Visão de Produto                                         | Grupo   |
+| 21/04/2025  | 1.1    | Adicionando informações sobre Visão de  Produto         | Grupo   |
+| 10/05/2025  | 1.2    | Alterações em informações na seção Visão do Produto  | Grupo  |
+| 13/05/2025  | 1.3    | Adição do submódulo de Engenharia de Requisitos  | André, Mateus e Davi  |
 
 

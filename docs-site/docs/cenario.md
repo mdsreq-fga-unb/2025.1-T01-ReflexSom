@@ -6,18 +6,18 @@ A Reflex Som é uma empresa com sede em Brasília (DF) especializada na locaçã
 
 ## Identificação da Oportunidade ou Problema
 
-Com o crescimento do setor de eventos e a busca por experiências mais elaboradas, a Reflex Som identifica uma oportunidade estratégica: modernizar sua presença digital e operacional, centralizando orçamentos, catálogos de equipamentos e atendimento técnico em uma plataforma integrada. Atualmente, muitos processos, como a elaboração de orçamentos, a consulta de catálogo de equipamentos e o agendamento e atendimento técnico, ainda são realizados de forma manual ou dependem fortemente de interações diretas, o que pode impactar a agilidade do negócio, principalmente em datas de alta demanda.
+Com o crescimento do setor de eventos e a busca por experiências mais elaboradas, a Reflex Som identifica uma oportunidade estratégica: modernizar sua presença digital e operacional, centralizando orçamentos, catálogos de equipamentos e atendimento técnico em uma plataforma integrada. Atualmente, muitos processos, como os supracitados, ainda são realizados de forma manual ou dependem fortemente de interações diretas, o que pode impactar a agilidade do negócio, principalmente em datas de alta demanda.
 
-![Logo](imagens/ishikawa.jpeg)
+![Logo](imagens/Diagrama de Ishikawa.png)
 
 ## Desafios do Projeto
 
 Os principais desafios enfrentados pela Reflex Som envolvem:
 
-- Dificuldade na gestão da disponibilidade de equipamentos, principalmente em períodos com múltiplos eventos simultâneos.
+- Dificuldade na gestão de equipamentos (disponibilidade, catálogo e integração com a geração de orçamentos), principalmente em períodos com múltiplos eventos simultâneos.
 
 
-- Falta de presença online estruturada, com resposta eficiente ao cliente e visualização clara dos serviços.
+- Resposta eficiente ao cliente e visualização clara dos serviços.
 
 
 - Acompanhamento técnico e logístico das operações em tempo real, o que é essencial para garantir a eficiência nos eventos.

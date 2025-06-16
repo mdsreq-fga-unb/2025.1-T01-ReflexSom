@@ -2,20 +2,13 @@
 
 A equipe do projeto foi estruturada com base nos princípios do OpenUP e em uma abordagem colaborativa, visando cobrir as diferentes áreas necessárias para o desenvolvimento da solução de forma eficiente. Abaixo estão os membros da equipe e suas respectivas responsabilidades:
 
-### Gerente de Projeto (Davi)
-Responsável pelo planejamento do projeto, definição e acompanhamento do cronograma, facilitação das reuniões, controle de riscos e comunicação direta com o cliente. Atua também como elo entre as diferentes áreas do projeto, garantindo o alinhamento entre todos.
-
-### Desenvolvedor Back-End (Alisson)
-Responsável pela construção da lógica do sistema, criação de APIs, integração com bancos de dados e implementação das regras de negócio. Trabalha para garantir que os dados trafeguem corretamente entre o front-end, os serviços externos e os sistemas de armazenamento.
-
-### Desenvolvedor Front-End (André e Clara)
-Responsável pela implementação das interfaces do sistema, seguindo os requisitos de usabilidade e acessibilidade. Atua na transformação de protótipos e especificações em páginas funcionais, garantindo boa experiência para o usuário.
-
-### Analista de Requisitos (Ana Luiza)
-Atua na elicitação, análise, documentação e validação dos requisitos do sistema junto ao cliente. Garante que os requisitos estejam claros e compreendidos pela equipe, sendo também responsável por mantê-los atualizados ao longo do projeto.
-
-### Especialista em Dados e Integrações (Mateus)
-Responsável por estruturar os dados que serão utilizados pelo sistema, além de desenvolver e manter integrações com fontes externas. Atua no mapeamento dos dados necessários, tratamento de inconsistências e suporte à equipe de back-end nas tarefas de integração.
+| Papel | Descrição | Responsável | Participantes  |
+|-------|-----------|-------------|----------------|
+| Gerente de Projeto | Responsável pelo planejamento do projeto, definição e acompanhamento do cronograma, facilitação das reuniões, controle de riscos e comunicação direta com o cliente. Atua também como elo entre as diferentes áreas do projeto, garantindo o alinhamento entre todos. | Davi | --- |
+| Desenvolvedor Back-End | Responsável pela construção da lógica do sistema, criação de APIs, integração com bancos de dados e implementação das regras de negócio. Trabalha para garantir que os dados trafeguem corretamente entre o front-end, os serviços externos e os sistemas de armazenamento. | André | Davi |
+| Desenvolvedor Front-End | Responsável pela implementação das interfaces do sistema, seguindo os requisitos de usabilidade e acessibilidade. Atua na transformação de protótipos e especificações em páginas funcionais, garantindo boa experiência para o usuário. | Alisson | Clara |
+| Analista de Requisitos | Atua na elicitação, análise, documentação e validação dos requisitos do sistema junto ao cliente. Garante que os requisitos estejam claros e compreendidos pela equipe, sendo também responsável por mantê-los atualizados ao longo do projeto. | Ana | Demais membros  
+| Especialista em Dados e Integrações | Responsável por estruturar os dados que serão utilizados pelo sistema, além de desenvolver e manter integrações com fontes externas. Atua no mapeamento dos dados necessários, tratamento de inconsistências e suporte à equipe de back-end nas tarefas de integração. | Mateus | Ana |
 
 ---
 
