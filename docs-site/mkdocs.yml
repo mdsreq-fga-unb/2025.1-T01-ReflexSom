@@ -27,6 +27,7 @@ nav:
       - Arquitetura: arq.md
     - Referências Bibliográficas: ref.md
   - Estudos de casos: 
+    - Product Backlog Building: pbb.md
     - User Story Mapping: usm.md
   - Lições Aprendidas: licoes.md
   - Apresentações:
