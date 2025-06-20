@@ -1,0 +1,27 @@
+# Node
+node_modules
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Django
+__pycache__/
+*.sqlite3
+media/
+static_cdn/
+
+# Vite
+.vite/
+dist/
+
+# pnpm
+pnpm-debug.log
+.pnpm-store/
+
+.env
+
