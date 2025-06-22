@@ -1,4 +1,4 @@
-# Lista de Requisitos Geral
+# Priorização da lista geral de requisitos
 
 Para apoiar a definição de prioridades no desenvolvimento das funcionalidades do sistema, foi utilizada uma abordagem combinando os métodos **MoSCoW** e **ICE Scoring**.
 
@@ -27,80 +27,28 @@ Cada membro do grupo atribuiu notas de 1 a 4 para todos os requisitos, correspon
 
 | Funcionalidade                                         | Impacto | Confiança | Facilidade | ICE Score | Prioridade  |
 |--------------------------------------------------------|---------|-----------|------------|-----------|-------------|
-| Realizar cadastro de cliente                           | 9       | 9         | 8          | 648       | Must Have   |
-| Realizar login do cliente                              | 9       | 9         | 7          | 567       | Must Have   |
-| Realizar logoff do cliente                             | 9       | 9         | 7          | 567       | Must Have   |
-| Editar os dados pessoais cadastrados do cliente        | 8       | 8         | 7          | 448       | Must Have   |
-| Cadastrar equipamento na lista de equipamentos         | 7       | 7         | 7          | 343       | Should Have |
-| Realizar consulta de equipamentos                      | 7       | 7         | 6          | 294       | Should Have |
-| Detalhar informações do equipamento                    | 5       | 8         | 7          | 280       | Could Have  |
-| Adicionar equipamentos ao carrinho                     | 6       | 6         | 7          | 252       | Could Have  |
-| Remover equipamento da lista de equipamentos           | 6       | 6         | 7          | 252       | Could Have  |
-| Exibir histórico de reservas do cliente                | 7       | 9         | 6          | 378       | Should Have |
-| Criar orçamento de uma reserva                         | 7       | 9         | 5          | 315       | Should Have |
-| Consultar agenda de eventos                            | 6       | 8         | 5          | 240       | Could Have  |
-| Realizar reservas                                      | 7       | 7         | 6          | 294       | Should Have |
-| Criar painel de controle de reservas                   | 8       | 8         | 5          | 320       | Should Have |
-| Criar visualização de relatório de reservas            | 7       | 8         | 5          | 280       | Could Have  |
-| Cancelar reservas                                      | 6       | 6         | 7          | 252       | Could Have  |
+| [Realizar cadastro de cliente](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/9)                            | 9       | 9         | 8          | 648       | Must Have   |
+| [Realizar login do cliente](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/6)                              | 9       | 9         | 7          | 567       | Must Have   |
+| [Realizar logoff do cliente](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/12)                             | 9       | 9         | 7          | 567       | Must Have   |
+| [Editar dados pessoais cadastrados do cliente](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/13)       | 8       | 8         | 7          | 448       | Must Have   |
+| [Cadastrar equipamento na lista de equipamentos](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/26) | 7       | 7         | 7          | 343       | Should Have |
+| [Realizar consultas de equipamentos](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/15)                      | 7       | 7         | 6          | 294       | Should Have |
+| [Detalhar informações do equipamento](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/17)                    | 5       | 8         | 7          | 280       | Could Have  |
+| [Adicionar equipamentos ao carrinho](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/19)                     | 6       | 6         | 7          | 252       | Could Have  |
+| [Exibir histórico de reservas do cliente.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/22)                | 7       | 9         | 6          | 378       | Should Have |
+| [Criar orçamento de uma reserva.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/24)                         | 7       | 9         | 5          | 315       | Should Have |
+| [Consultar agenda de eventos.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/30)                            | 6       | 8         | 5          | 240       | Could Have  |
+| [Realizar reservas](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/53)                                      | 7       | 7         | 6          | 294       | Should Have |
+| [Emitir relatórios de reservas.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/34)            | 7       | 8         | 5          | 280       | Could Have  |
+| [Aprovar reserva solicitada.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/55) | | | | |
 
-
-
-
-
-
-
-
-
-<!-- 
-
-
-
-
-Nesta seção, foi realizada a priorização dos itens da lista de requisito, apresentada anteriormente, utilizando a metodologia MoSCoW, uma técnica amplamente adotada em gestão de requisitos. Ela classifica as funcionalidades em quatro categorias principais:
-
-- Must have: Funcionalidades indispensáveis, que são obrigatórias para o produto funcionar corretamente e, portanto, não podem deixar de ser entregues.
-
-
-- Should have: Funcionalidades relevantes, que devem ser incluídas sempre que possível, mas cuja ausência temporária não compromete o funcionamento do sistema.
-
-
-- Could have: Funcionalidades opcionais que agregam valor ao produto, mas não são urgentes e podem ser adiadas ou excluídas em caso de restrição de tempo ou recursos.
-
-
-- Won’t have: Funcionalidades que foram deliberadamente deixadas de fora do escopo atual, por não serem necessárias neste momento.
-
-
-
-A seguir, a tabela representa o resultado do esforço da equipe na priorização da lista de requisitos. 
-
-
-
-| Funcionalidade | Impacto | Confiança | Facilidade | ICE Score | Prioridade  |
-|----------------|---------|-----------|------------|-----------|-------------|
-| Realizar cadastro de cliente  | 9       | 9         | 8          | 648       | Must Have   |
-| Realizar login do cliente     | 9       | 9         | 7          | 567       | Must Have   |
-| Realizar logoff do cliente    | 9       | 9         | 7          | 567       | Must Have   |
-| Editar os dados pessoais cadastrados do cliente     | 8       | 8         | 7          | 448       | Must Have   |
-| Cadastrar equipamento na lista de equipamentos      | 7       | 7         | 7          | 343       | Should Have |
-| Realizarconsulta de equipamentos        | 7       | 7         | 6          | 294       | Should Have |
-| Detalhar informações do equipamento     | 5       | 8         | 7          | 280       | Could Have  |
-| Adicionar equipamentos ao carrinho      | 6       | 6         | 7          | 252       | Could Have  |
-| Remover equipamento da lista de equipamentos      | 6       | 6         | 7          | 252       | Could Have  |
-| Exibir histórico de reservas do cliente | 7       | 9         | 6          | 378       | Should Have |
-| Criar orçamento de uma reserva          | 7       | 9         | 5          | 315       | Should Have |
-| Consultar agenda de eventos             | 6       | 8         | 5          | 240       | Could Have  |
-| Realizar reservas            | 7       | 7         | 6          | 294       | Should Have |
-| Criar painel de controle de reservas               | 8       | 8         | 5          | 320       | Should Have |
-| Criar visualização de relatório de reservas        | 7       | 8         | 5          | 280       | Could Have  |
-| Cancelar reservas            | 6       | 6         | 7          | 252       | Could Have  | -->
-
+<!-- | Criar painel de controle de reservas                   | 8       | 8         | 5          | 320       | Should Have | -->
+---
 
 
 # MVP
-O Produto Mínimo Viável (MVP) do sistema Reflex Som representa a primeira entrega funcional do sistema, contendo apenas os recursos essenciais para que os clientes consigam acessar a plataforma, gerenciar seus dados, visualizar os equipamentos disponíveis e preparar uma locação. As funcionalidades foram priorizadas com base na técnica MoSCoW, considerando as necessidades básicas para uso inicial do sistema.
+O Produto Mínimo Viável (MVP) do sistema Reflex Som representa a primeira entrega funcional do sistema, contendo apenas os recursos essenciais para que os clientes consigam acessar a plataforma, gerenciar seus dados, visualizar os equipamentos disponíveis e preparar uma locação. As funcionalidades foram priorizadas com base na técnica MoSCoW e ICE Scoring, considerando as necessidades básicas para uso inicial do sistema.
 
----
 ## Funcionalidades do MVP
 
 - [Realizar cadastro de cliente](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/9)
@@ -111,9 +59,8 @@ O Produto Mínimo Viável (MVP) do sistema Reflex Som representa a primeira entr
 - [Realizar consultas de equipamentos](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/15)
 - [Detalhar informações do equipamento](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/17)
 - [Adicionar equipamentos ao carrinho](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/19)
-- [Remover equipamentos do carrinho](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/20)
 
-
+---
 
 
 

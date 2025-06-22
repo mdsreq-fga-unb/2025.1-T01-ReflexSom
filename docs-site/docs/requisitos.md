@@ -1,22 +1,21 @@
 # REQUISITOS FUNCIONAIS
-Para um maior detalhamento dos requisitos, [clique aqui para acessar o GitProject](https://github.com/orgs/mdsreq-fga-unb/projects/64/views/2).
+Para acessar o GitProject da Reflex Som, o qual inclui quadros da lista de requisitos geral (priorizada e detalhada), da lista de requisitos da iteração, dos requisitos em homologação e dos concluídos, [clique aqui](https://github.com/orgs/mdsreq-fga-unb/projects/64/views/2).
 
 - [Realizar cadastro do cliente.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/9)
 - [Realizar login do cliente.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/6)
 - [Realizar logoff do cliente.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/12)
 - [Editar os dados pessoais cadastrados do cliente.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/13)
 - [Adicionar equipamentos ao carrinho.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/19)
-- [Remover equipamentos do carrinho.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/20)
 - [Detalhar informações do equipamento.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/17)
+- [Realizar reservas](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/53)
 - [Exibir histórico de reservas do cliente.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/22)
 - [Criar orçamento de uma reserva.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/24)
-- [Emitir relatórios de reservas.]
-- [Aprovar reserva solicitada.]
+- [Emitir relatórios de reservas.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/34)
+- [Aprovar reserva solicitada.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/55)
 - [Realizar consulta de equipamentos.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/29)
 - [Consultar agenda de eventos.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/30)
 - [Cancelar reserva já agendada.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/31)
-- [Cadastrar equipamento na lista de equipamentos.]
-- [Remover equipamento da lista de equipamentos.]
+- [Cadastrar equipamento na lista de equipamentos](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/26)
 
 
 
