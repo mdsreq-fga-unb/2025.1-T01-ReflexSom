@@ -1,24 +1,38 @@
+# Cronograma do Projeto Reflex Som
 
+## Iniciação
 
+| Iteração | Início     | Fim        | Objetivos e entregas esperadas                              | Casos de Uso Relacionados                |
+|----------|------------|------------|-------------------------------------------------------------|------------------------------------------|
+| I0       | 31/03/2025 | 06/04/2025 | Análise do problema, organização da equipe, definição dos cargos | -                                        |
+| I1       | 07/04/2025 | 13/04/2025 | Planejamento do projeto, organização da documentação         | -                                        |
+| I2       | 14/04/2025 | 20/04/2025 | Definição do projeto, verificação e validação, organização e atualização da documentação | -                                        |
 
+## Elaboração
 
-| Fase do OpenUp | Iteração | Início     | Fim        | Objetivos e entregas esperadas                                                             |
-| -------------- | -------- | ---------- | ---------- | ------------------------------------------------------------------------------------------ |
-| Iniciação      | 0        | 31/03/2025 | 06/04/2025 | Análise do problema, organização da equipe, definição dos cargos                           |
-|                | 1        | 07/04/2025 | 13/04/2025 | Planejamento do projeto, organização da documentação                                       |
-|                | 2        | 14/04/2025 | 20/04/2025 | Definição do projeto, organização da documentação                                          |
-| Elaboração     | 3        | 21/04/2025 | 27/04/2025 | Levantar e formalizar os requisitos                                                        |
-|                | 5        | 05/05/2025 | 11/05/2025 | Definir o MVP                                                                              |
-|                | 6      | 12/05/2025  | 18/05/2025  | Definir DoR e DoD                                       |
-| Construção     | 7        | 26/05/2025 | 01/06/2025 | Desenvolver banco de dados, criar funções de cadastro de clientes                          |
-|                | 8        | 02/06/2025 | 08/06/2025 | Implementar endpoint de cadastro de cliente, login, autenticação e geração de token/sessão |
-|                | 9       | 09/06/2025 | 15/06/2025 | Implementar atualização/edição de dados do cliente, logoff                                 |
-|                | 10       | 16/06/2025 | 22/06/2025 | Listagem de equipamentos, busca por nome, detalhamento de equipamentos                     |
-|                | 11       | 23/06/2025 | 29/06/2025 | Implementar endpoint para detalhes de equipamento e adicionar ao carrinho                  |
-|                | 12       | 30/06/2025 | 06/07/2025 | Criar visualização de relatório de reservas, testes das funcionalidades implementadas      |
-| Transição      | 13      | 07/07/2025 | 13/07/2025 | Disponibilizar projeto para uso e coleta de feedbacks                                      |
-|                | 14       | 14/07/2025 | 20/07/2025 | Encerramento do projeto, entrega final ao cliente                                          |
+| Iteração | Início     | Fim        | Objetivos e entregas esperadas                              | Casos de Uso Relacionados                              |
+|----------|------------|------------|-------------------------------------------------------------|--------------------------------------------------------|
+| E1       | 21/04/2025 | 27/04/2025 | Elicitação e descoberta, levantamento e formalização dos requisitos | Todos os casos de uso (levantamento e análise)          |
+| E2       | 05/05/2025 | 11/05/2025 | Definir o MVP                                                | -                                                      |
+| E3       | 12/05/2025 | 18/05/2025 | Definir DoR e DoD                                           | -                                                      |
 
+## Construção
+
+| Iteração | Início     | Fim        | Objetivos e entregas esperadas                              | Casos de Uso Relacionados                              |
+|----------|------------|------------|-------------------------------------------------------------|--------------------------------------------------------|
+| C1       | 26/05/2025 | 01/06/2025 | Desenvolvimento: banco de dados, funções de cadastro de clientes. Refinamento e validação contínua dos requisitos. | Realizar cadastro do cliente                            |
+| C2       | 02/06/2025 | 08/06/2025 | Desenvolvimento: endpoint de cadastro, login, autenticação e geração de token/sessão. Ajustes nos requisitos conforme feedback. | Realizar cadastro do cliente, Realizar login do cliente |
+| C3       | 09/06/2025 | 15/06/2025 | Desenvolvimento: atualização/edição de dados do cliente, logoff. Validação dos requisitos implementados. | Editar os dados pessoais cadastrados do cliente, Realizar logoff do cliente |
+| C4       | 16/06/2025 | 22/06/2025 | Desenvolvimento: listagem, busca e detalhamento de equipamentos. Ajustes nos requisitos conforme testes. | Realizar consulta de equipamentos, Detalhar informações do equipamento |
+| C5       | 23/06/2025 | 29/06/2025 | Desenvolvimento: endpoint para detalhes de equipamento e adicionar ao carrinho. Revisão dos requisitos relacionados. | Detalhar informações do equipamento, Adicionar equipamentos ao carrinho |
+| C6       | 30/06/2025 | 06/07/2025 | Desenvolvimento: visualização de relatórios de reservas e testes. Ajustes finais de requisitos e testes integrados. | Emitir relatórios de reservas, Exibir histórico de reservas do cliente |
+
+## Transição
+
+| Iteração | Início     | Fim        | Objetivos e entregas esperadas                              | Casos de Uso Relacionados                              |
+|----------|------------|------------|-------------------------------------------------------------|--------------------------------------------------------|
+| T1       | 07/07/2025 | 13/07/2025 | Disponibilizar projeto para uso e coleta de feedbacks       | Aprovar reserva solicitada, Consultar agenda de eventos, Cancelar reserva já agendada |
+| T2       | 14/07/2025 | 20/07/2025 | Encerramento do projeto, entrega final ao cliente            | Cadastrar equipamento na lista de equipamentos, Remover equipamento da lista de equipamentos, Remover equipamentos do carrinho |
 
 
 <!-- | Fase do OpenUp | Iteração | Início      | Fim         | Objetivos e entregas esperadas                                                                 |
