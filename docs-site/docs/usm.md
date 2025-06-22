@@ -65,27 +65,26 @@ Porque a organização de eventos comunitários é hoje **fragmentada e ineficie
 | ID   | Descrição                           | Usuário(s) Envolvido(s)   |
 | ---- | ----------------------------------- | ------------------------- |
 | At01 | Criar e configurar evento           | Organizador               |
-| At02 | Descobrir e se inscrever no evento  | Participante              |
-| At03 | Contratar fornecedores              | Fornecedor Local          |
-| At04 | Captar patrocinadores               | Patrocinador              |
-| At05 | Recrutar voluntários                | Voluntário                |
-| At06 | Promover o evento                   | Organizador               |
-| At07 | Comunicar-se com o público          | Organizador, Participante |
-| At08 | Avaliar evento e gerar aprendizados | Todos os usuários         |
+| At02 | Promover o evento                   | Organizador               |
+| At03 | Contratar fornecedores              | Organizador, Fornecedor   |
+| At04 | Captar patrocinadores               | Organizador, Patrocinador |
+| At05 | Descobrir e se inscrever no evento  | Participante              |
+| At06 | Recrutar voluntários                | Organizador, Voluntário   |
+| At07 | Avaliar evento e gerar aprendizados | Organizador, Participante, Voluntário, Patrocinador, Fornecedor |
 
 ---
 
 ## Backbone (Épicos Principais por Atividade)
 
-| ID   | Descrição                | Atividade Relacionada |
-| ---- | ------------------------ | --------------------- |
-| Bb01 | Configurar evento        | At01                  |
-| Bb02 | Efetivar inscrições      | At02                  |
-| Bb03 | Gerenciar fornecedores   | At03                  |
-| Bb04 | Coordenar patrocínios    | At04                  |
-| Bb05 | Recrutar voluntários     | At05                  |
-| Bb06 | Promover & comunicar     | At06, At07            |
-| Bb07 | Avaliar & gerar insights | At08                  |
+| ID   | Descrição                                 | Atividade Relacionada |
+| ---- | ------------------------------------------ | --------------------- |
+| Bb01 | Planejar os detalhes do evento             | At01                  |
+| Bb02 | Divulgar o evento nos canais adequados     | At02                  |
+| Bb03 | Formalizar parcerias com fornecedores      | At03                  |
+| Bb04 | Negociar e registrar apoio financeiro      | At04                  |
+| Bb05 | Efetivar inscrições                        | At05                  |
+| Bb06 | Engajar voluntários nas atividades         | At06                  |
+| Bb07 | Medir o sucesso e aprendizado do evento    | At07                  |
 
 ---
 
@@ -95,18 +94,17 @@ Porque a organização de eventos comunitários é hoje **fragmentada e ineficie
 | ---- | ------------------------------------------------ | -------- |
 | Ta01 | Definir título, local e data do evento           | Bb01     |
 | Ta02 | Escolher categorias e tipo de evento             | Bb01     |
-| Ta03 | Cadastrar formulário de inscrição                | Bb02     |
-| Ta04 | Visualizar inscrições confirmadas                | Bb02     |
-| Ta05 | Cadastrar fornecedores e negociar serviços       | Bb03     |
-| Ta06 | Gerar contrato eletrônico com fornecedores       | Bb03     |
-| Ta07 | Enviar proposta de patrocínio                    | Bb04     |
-| Ta08 | Cadastrar patrocinador e contrapartidas          | Bb04     |
-| Ta09 | Disponibilizar formulário para voluntários       | Bb05     |
-| Ta10 | Gerenciar escala de voluntários                  | Bb05     |
-| Ta11 | Compartilhar evento nas redes sociais            | Bb06     |
-| Ta12 | Agendar e disparar e-mails para inscritos        | Bb06     |
-| Ta13 | Coletar feedback dos participantes               | Bb07     |
-| Ta14 | Avaliar desempenho de fornecedores e voluntários | Bb07     |
+| Ta03 | Compartilhar evento nas redes sociais            | Bb02     |
+| Ta04 | Cadastrar fornecedores e negociar serviços       | Bb03     |
+| Ta05 | Gerar contrato eletrônico com fornecedores       | Bb03     |
+| Ta06 | Enviar proposta de patrocínio                    | Bb04     |
+| Ta07 | Cadastrar patrocinador e contrapartidas          | Bb04     |
+| Ta08 | Cadastrar formulário de inscrição                | Bb05     |
+| Ta09 | Visualizar inscrições confirmadas                | Bb05     |
+| Ta10 | Disponibilizar formulário para voluntários       | Bb06     |
+| Ta11 | Gerenciar escala de voluntários                  | Bb06     |
+| Ta12 | Coletar feedback dos participantes               | Bb07     |
+| Ta13 | Avaliar desempenho dos envolvidos                | Bb07     |
 
 ---
 
@@ -114,18 +112,17 @@ Porque a organização de eventos comunitários é hoje **fragmentada e ineficie
 
 | ID   | Descrição                                      | Backbone |
 | ---- | ---------------------------------------------- | -------- |
-| Ta15 | Gerar relatório de impacto do evento           | Bb07     |
-| Ta16 | Cadastrar múltiplos eventos em um mesmo painel | Bb01     |
-| Ta17 | Criar painel de estatísticas dos eventos       | Bb07     |
-| Ta18 | Permitir pagamentos online integrados          | Bb02     |
-| Ta19 | Notificar por WhatsApp                         | Bb06     |
-| Ta20 | Gamificar atividades voluntárias               | Bb05     |
+| Ta14 | Cadastrar múltiplos eventos em um mesmo painel | Bb01     |
+| Ta15 | Permitir pagamentos online integrados          | Bb05     |
+| Ta16 | Gamificar atividades voluntárias               | Bb06     |
+| Ta17 | Gerar relatório de impacto do evento           | Bb07     |
+| Ta18 | Criar painel de estatísticas dos eventos       | Bb07     |
 
 ---
 
 ## Tarefas em Histórias de Usuário
 
-### **Backbone: Bb01 – Configurar Evento**
+### **Backbone: Bb01 – Planejar os detalhes do evento**
 
 **Definir título, local e data do evento**
 
@@ -137,23 +134,22 @@ Porque a organização de eventos comunitários é hoje **fragmentada e ineficie
 * O organizador deve poder selecionar o tipo (ex: cultural, esportivo, beneficente) e categorias relacionadas.
 * As categorias selecionadas devem ser armazenadas para futura filtragem na busca por eventos.
 
----
+**Cadastrar múltiplos eventos em um mesmo painel**
 
-### **Backbone: Bb02 – Efetivar Inscrições**
-
-**Cadastrar formulário de inscrição**
-
-* O organizador deve poder criar um formulário com campos personalizados (nome, e-mail, preferências etc.).
-* O formulário deve ser vinculado ao evento e acessível publicamente para inscrições.
-
-**Visualizar inscrições confirmadas**
-
-* O organizador deve poder acessar uma lista com os inscritos e seus dados.
-* A lista deve poder ser exportada e atualizada em tempo real.
+* O organizador pode criar e gerenciar vários eventos simultaneamente em um único painel de controle.
 
 ---
 
-### **Backbone: Bb03 – Gerenciar Fornecedores**
+### **Backbone: Bb02 – Divulgar o evento nos canais adequados**
+
+**Compartilhar evento nas redes sociais**
+
+* Geração de links de divulgação e prévias com imagem e descrição.
+* Botão de compartilhamento para WhatsApp, Instagram e Facebook.
+
+---
+
+### **Backbone: Bb03 – Formalizar parcerias com fornecedores**
 
 **Cadastrar fornecedores e negociar serviços**
 
@@ -167,7 +163,7 @@ Porque a organização de eventos comunitários é hoje **fragmentada e ineficie
 
 ---
 
-### **Backbone: Bb04 – Coordenar Patrocínios**
+### **Backbone: Bb04 – Negociar e registrar apoio financeiro**
 
 **Enviar proposta de patrocínio**
 
@@ -181,7 +177,25 @@ Porque a organização de eventos comunitários é hoje **fragmentada e ineficie
 
 ---
 
-### **Backbone: Bb05 – Recrutar Voluntários**
+### **Backbone: Bb05 – Efetivar inscrições**
+
+**Cadastrar formulário de inscrição**
+
+* O organizador deve poder criar um formulário com campos personalizados (nome, e-mail, preferências etc.).
+* O formulário deve ser vinculado ao evento e acessível publicamente para inscrições.
+
+**Visualizar inscrições confirmadas**
+
+* O organizador deve poder acessar uma lista com os inscritos e seus dados.
+* A lista deve poder ser exportada e atualizada em tempo real.
+
+**Permitir pagamentos online integrados**
+
+* O participante pode realizar o pagamento da inscrição diretamente pela plataforma, de forma segura e integrada.
+
+---
+
+### **Backbone: Bb06 – Engajar voluntários nas atividades**
 
 **Disponibilizar formulário para voluntários**
 
@@ -193,32 +207,30 @@ Porque a organização de eventos comunitários é hoje **fragmentada e ineficie
 * Criação de escala de tarefas e horários.
 * Alocação automática ou manual com notificações.
 
----
+**Gamificar atividades voluntárias**
 
-### **Backbone: Bb06 – Promover e Comunicar**
-
-**Compartilhar evento nas redes sociais**
-
-* Geração de links de divulgação e prévias com imagem e descrição.
-* Botão de compartilhamento para WhatsApp, Instagram e Facebook.
-
-**Agendar e disparar e-mails para inscritos**
-
-* Configuração de mensagens automáticas com base em datas do evento.
-* Envio automático conforme agenda.
+* Implementar sistema de pontos, medalhas ou recompensas para engajamento dos voluntários.
 
 ---
 
-### **Backbone: Bb07 – Avaliar e Gerar Insights**
+### **Backbone: Bb07 – Medir o sucesso e aprendizado do evento**
 
 **Coletar feedback dos participantes**
 
 * Envio de formulário de avaliação com campos personalizáveis.
 * Armazenamento das respostas para análise.
 
-**Avaliar desempenho de fornecedores e voluntários**
+**Avaliar desempenho dos envolvidos**
 
-* Avaliação por critérios definidos (pontualidade, qualidade etc.).
+* Avaliação por critérios definidos (pontualidade, qualidade etc.) para fornecedores, voluntários e demais participantes.
 * Registro das avaliações vinculadas ao evento.
+
+**Gerar relatório de impacto do evento**
+
+* Geração automática de relatório com dados quantitativos e qualitativos do evento.
+
+**Criar painel de estatísticas dos eventos**
+
+* Visualização de métricas e indicadores de sucesso dos eventos realizados.
 
 ---
