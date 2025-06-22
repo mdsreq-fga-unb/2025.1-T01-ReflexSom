@@ -18,4 +18,4 @@ Um item da lista de requisitos será considerado feito quando:
 - **Testes realizados:** Passou pelo teste de integração.
 - **Integração concluída:** Frontend e backend funcionando juntos adequadamente.
 - **Versionamento e documentação:** Código está no repositório e devidamente documentado com endpoints e funcionalidades registrados no MkDocs.
-- **Revisão de interface:** Foi validada com o cliente conforme o design do projeto.
+- **Revisão de interface:** Foi validada com o cliente.
