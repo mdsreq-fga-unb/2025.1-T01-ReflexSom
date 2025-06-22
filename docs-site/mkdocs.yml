@@ -18,13 +18,13 @@ nav:
     - Engenharia de Requisitos: er.md
     - Cronogramas e Entregas: cronograma.md
     - Interação entre Equipe e Cliente: equipe.md
-    - Requisitos de Software: requisitos.md
-    - DoR e DoD: dordod.md
-    - Lista de Requisitos:
-      - Priorização e MVP: priorizacao.md
+    - Requisitos de Software: 
+      - Lista de requisitos: requisitos.md
+      - Priorização e MVP: mvp.md
       - Diagramas: casosUso.md
-      - Mapa de Rastreabilidade: maparast.md
+      - Mapa de Rastreabilidade: mapRast.md
       - Arquitetura: arq.md
+    - DoR e DoD: dordod.md
     - Referências Bibliográficas: ref.md
   - Estudos de casos: 
     - Product Backlog Building: pbb.md
