@@ -11,6 +11,9 @@ A **ComunEventos** é uma startup fictícia que visa criar uma plataforma digita
 
 A proposta é oferecer uma solução unificada e acessível, com foco em **organização, comunicação, gestão e colaboração**.
 
+
+<iframe width="100%" height="600" src="https://miro.com/app/board/uXjVInpxAh0=/?share_link_id=75548130607" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
 ---
 
 ## Resumo do Produto
