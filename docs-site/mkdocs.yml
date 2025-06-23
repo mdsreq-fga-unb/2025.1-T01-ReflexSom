@@ -25,6 +25,7 @@ nav:
       - Mapa de Rastreabilidade: mapRast.md
       - Arquitetura: arq.md
     - DoR e DoD: dordod.md
+    - Evidências de Execução: evidencias.md
     - Referências Bibliográficas: ref.md
   - Estudos de casos: 
     - Product Backlog Building: pbb.md
