@@ -14,31 +14,33 @@ Utilizamos o Product Backlog Building (PBB) para construir o Product Backlog da 
 ## Backlog de Produto
 
 
-| **N°** | **História de Usuário** | **Épico**  |
-| ------ | ----------------------- | ---------- |
-| US01      | Como Maria (recepcionista), quero buscar o histórico de um paciente pelo CPF, para agilizar o atendimento na recepção.                                 | **1. Unificar prontuário eletrônico**  |
-| US02      | Como Dr. João, quero acessar todo o histórico clínico de um paciente, mesmo que ele tenha passado por outra unidade, para tomar decisões mais seguras. |   |
-| US03      | Como Dr. João, quero visualizar exames, laudos e receitas anteriores em um único lugar, para ter contexto clínico completo.                            |   |
-| US04      | Como Clara (paciente), quero poder visualizar meu histórico médico pelo portal do paciente, para acompanhar minha saúde.                               |   |
-| US05      | Como Roberto (diretor de TI), quero garantir que todos os acessos ao prontuário sejam auditáveis, para manter a conformidade com a LGPD.               |   |
-| US06      | Como Rafael (coordenador), quero visualizar a agenda de todos os médicos e especialistas em uma única interface, para evitar conflitos de horários.    | **2. Unificar o sistema de agendamento** |
-| US07      | Como Maria, quero agendar múltiplas especialidades para um paciente em sequência, sem ter que reiniciar o processo.                                    |  |
-| US08      | Como Clara, quero agendar e reagendar consultas online, para evitar ligações e deslocamentos.                                           |  |
-| US09      | Como Clara, quero receber notificações por SMS ou e-mail sobre minhas consultas, para não me esquecer dos compromissos.                               |  |
-| US10     | Como Roberto, quero que os dados de agendamento estejam sincronizados em tempo real entre unidades, para garantir consistência.                        |  |
-| US11     | Como Dr. João, quero prescrever medicamentos digitalmente, para facilitar e registrar os tratamentos.                                                  | **3. Digitalizar a prescrição médica**        |
-| US12     | Como Dr. João, quero receber alertas de interações medicamentosas ao prescrever, para evitar riscos ao paciente.                                       |         |
-| US13     | Como Lívia (farmacêutica), quero receber prescrições digitalmente e de forma legível, para minimizar erros na dispensação.                             |         |
-| US14     | Como Lívia, quero confirmar que um medicamento foi entregue ao paciente, para manter o controle de estoque e registro.                                 |         |
-| US15     | Como Clara, quero receber lembretes das medicações que devo tomar, para seguir corretamente meu tratamento.                                            |         |
-| US16     | Como Clara, quero acessar meus resultados de exames no portal, para acompanhar minha evolução.                                                         | **4. Portal do Paciente**               |
-| US17     | Como Clara, quero verificar meu histórico de consultas, diagnósticos e receitas anteriores, para me manter informada.                                  |                |
-| US18     | Como Clara, quero atualizar meus dados de contato e endereço pelo portal, para garantir que minhas informações estejam corretas.                       |                |
-| US19     | Como Clara, quero visualizar a lista de medicamentos em uso, para evitar duplicidade ou erro.                                                          |                |
-| US20     | Como Roberto, quero monitorar o desempenho do sistema em tempo real, para evitar interrupções.                                                         | **5. Infraestrutura e Conformidade**    |
-| US21     | Como Roberto, quero gerar relatórios de auditoria sobre acessos aos prontuários, para manter a conformidade com normas legais.                         |     |
-| US22     | Como Roberto, quero aplicar atualizações sem interromper o serviço nas unidades, para garantir continuidade.                                           |     |
-| US23     | Como Roberto, quero contar com suporte técnico automatizado e escalável, para resolver incidentes rapidamente.                                         |     |
+| **N°** | **História de Usuário** | **Épico** |
+|--------|--------------------------|-----------|
+| US01 | Como Dr. Luiz, quero acessar rapidamente o histórico clínico do paciente, para tomar decisões mais seguras. | **1. Suporte Clínico Digital Completo ao Atendimento Médico** |
+| US02 | Como Dr. Luiz, quero registrar consultas e evolução clínica de forma digital e padronizada, para facilitar o acompanhamento. | |
+| US03 | Como Dr. Luiz, quero prescrever medicamentos digitalmente, para facilitar e registrar os tratamentos. | |
+| US04 | Como Dr. Luiz, quero receber alertas de interações medicamentosas ao prescrever, para evitar riscos ao paciente. | |
+| US05 | Como Maria, quero registrar novos pacientes de forma rápida e padronizada, para agilizar o atendimento. | **2. Gestão Ágil de Cadastros e Agendamentos** |
+| US06 | Como Maria, quero visualizar a disponibilidade de todos os profissionais, para marcar consultas com facilidade. | |
+| US07 | Como Maria, quero reagendar consultas com poucos cliques, para reduzir o tempo gasto com remarcações. | |
+| US08 | Como Maria, quero acessar informações básicas do paciente já cadastrado, para evitar duplicidade e retrabalho. | |
+| US09 | Como Lívia, quero receber prescrições digitalmente, para evitar erros de digitação ou interpretação. | **3. Dispensação Segura e Rastreável de Medicamentos** |
+| US10 | Como Lívia, quero registrar a dispensação com vínculo direto à prescrição, para manter rastreabilidade. | |
+| US11 | Como Lívia, quero verificar automaticamente interações medicamentosas, para garantir segurança do paciente. | |
+| US12 | Como Lívia, quero consultar o histórico de medicações dispensadas, para apoiar a continuidade do tratamento. | |
+| US13 | Como Rafael, quero visualizar todas as agendas médicas em um único sistema, para evitar conflitos. | **4. Orquestração Centralizada das Agendas Médicas** |
+| US14 | Como Rafael, quero reatribuir horários de forma otimizada, para minimizar ociosidade. | |
+| US15 | Como Rafael, quero automatizar notificações de confirmação de consulta, para reduzir faltas. | |
+| US16 | Como Rafael, quero gerar relatórios de uso da agenda, para planejar escalas com base em dados. | |
+| US17 | Como Clara, quero visualizar minhas consultas agendadas, para planejar minha rotina. | **5. Acompanhamento Digital da Jornada de Saúde** |
+| US18 | Como Clara, quero acessar resultados de exames online, para acompanhar meu tratamento. | |
+| US19 | Como Clara, quero receber lembretes automáticos de medicação e retorno, para manter a adesão ao tratamento. | |
+| US20 | Como Clara, quero reagendar uma consulta diretamente pelo portal, para evitar ligações ou deslocamentos desnecessários. | |
+| US21 | Como Roberto, quero integrar os sistemas das unidades, para centralizar as informações de saúde. | **6. Plataforma Integrada, Escalável e Conformidade Digital** |
+| US22 | Como Roberto, quero garantir a disponibilidade e segurança dos dados de pacientes, para estar em conformidade com a legislação. | |
+| US23 | Como Roberto, quero obter indicadores consolidados da operação, para tomar decisões estratégicas. | |
+| US24 | Como Roberto, quero implementar soluções escaláveis, para permitir crescimento sem retrabalho. | |
+
 
 ---
 
@@ -76,73 +78,365 @@ Escala de valores:
 
 ### Priorização das Histórias de Usuários
 
-#### Unificar Prontuário Eletrônico
-- Buscar histórico pelo CPF: 5 + 3 = 8 (**US01**)
-- Acessar histórico de outras unidades: 5 + 3 = 8 (**US02**)
-- Visualizar exames, laudos e receitas anteriores: 5 + 3 = 8 (**US03**)
-- Visualizar histórico médico no portal do paciente: 3 + 2 = 5 (**US04**)
-- Garantir auditabilidade dos acessos (LGPD): 2 + 3 = 5 (**US05**)
 
-#### Unificar Sistema de Agendamento
-- Visualizar agenda de médicos e especialistas: 4 + 3 = 7 (**US06**)
-- Agendar múltiplas especialidades em sequência: 3 + 2 = 5 (**US07**)
-- Agendar e reagendar consultas online: 3 + 2 = 5 (**US08**)
-- Receber notificações sobre consultas: 3 + 2 = 5 (**US09**)
-- Sincronizar dados de agendamento entre unidades: 2 + 2 = 4 (**US10**)
+#### **1. Suporte Clínico Digital Completo ao Atendimento Médico**
 
-#### Digitalizar a Prescrição Médica
-- Prescrever medicamentos digitalmente: 5 + 3 = 8 (**US11**)
-- Alertas de interações medicamentosas: 5 + 3 = 8 (**US12**)
-- Receber prescrições digitalmente na farmácia: 4 + 3 = 7 (**US13**)
-- Confirmar entrega de medicamento ao paciente: 4 + 2 = 6 (**US14**)
-- Lembretes de medicação para o paciente: 4 + 2 = 6 (**US15**)
+- Acessar histórico clínico do paciente: 5 + 3 = **8** (US01)
+- Registrar consultas e evolução clínica: 4 + 2 = **6** (US02)
+- Prescrever medicamentos digitalmente: 5 + 3 = **8** (US03)
+- Alertas de interações medicamentosas: 5 + 3 = **8** (US04)
 
-#### Portal do Paciente
-- Ver histórico de consultas, diagnósticos e receitas: 3 + 2 = 5 (**US17**)
-- Acessar resultados de exames: 3 + 2 = 5 (**US16**)
-- Atualizar dados cadastrais: 2 + 2 = 4 (**US18**)
 
-#### Infraestrutura e Conformidade
-- Monitorar desempenho do sistema: 3 + 2 = 5 (**US20**)
-- Gerar relatórios de auditoria: 2 + 2 = 4 (**US21**)
-- Atualizações sem interrupção: 2 + 2 = 4 (**US22**)
-- Suporte técnico automatizado e escalável: 2 + 2 = 4 (**US23**)
+#### **2. Gestão Ágil de Cadastros e Agendamentos**
+
+- Registrar novos pacientes: 5 + 2 = **7** (US05)
+- Visualizar disponibilidade de profissionais: 5 + 2 = **7** (US06)
+- Reagendar consultas com poucos cliques: 4 + 2 = **6** (US07)
+- Acessar informações básicas do paciente: 4 + 2 = **6** (US08)
+
+
+#### **3. Dispensação Segura e Rastreável de Medicamentos**
+
+- Receber prescrições digitalmente: 5 + 3 = **8** (US09)
+- Registrar dispensação vinculada à prescrição: 5 + 3 = **8** (US10)
+- Verificar interações medicamentosas: 4 + 2 = **6** (US11)
+- Consultar histórico de medicações: 3 + 2 = **5** (US12)
+
+#### **4. Orquestração Centralizada das Agendas Médicas**
+
+- Visualizar agendas médicas unificadas: 4 + 3 = **7** (US13)
+- Reatribuir horários de forma otimizada: 3 + 3 = **6** (US14)
+- Notificações automáticas de consultas: 4 + 2 = **6** (US15)
+- Gerar relatórios de uso da agenda: 2 + 3 = **5** (US16)
+
+#### **5. Acompanhamento Digital da Jornada de Saúde**
+
+- Visualizar consultas agendadas: 4 + 3 = **7** (US17)
+- Acessar resultados de exames: 3 + 3 = **6** (US18)
+- Receber lembretes de medicação e retorno: 3 + 3 = **6** (US19)
+- Reagendar consulta pelo portal: 3 + 2 = **5** (US20)
+
+#### **6. Plataforma Integrada, Escalável e Conformidade Digital**
+
+- Integrar sistemas das unidades: 2 + 3 = **5** (US21)
+- Garantir segurança e conformidade: 3 + 3 = **6** (US22)
+- Obter indicadores operacionais: 2 + 3 = **5** (US23)
+- Implementar soluções escaláveis: 2 + 2 = **4** (US24)
 
 
 ---
 
 ## Critérios de aceitação  
 
-Critérios de aceitação das 23 histórias de usuário priorizadas.
 
 | Nº    | História de Usuário | Critérios de Aceitação |
 |-------|----------------------|-------------------------|
-| US01  | Como Maria (recepcionista), quero buscar o histórico de um paciente pelo CPF, para agilizar o atendimento na recepção. | - Permitir busca por CPF com retorno em tempo real<br>- Exibir dados clínicos básicos e últimos atendimentos<br>- Garantir que apenas usuários autorizados realizem a busca |
-| US02  | Como Dr. João, quero acessar todo o histórico clínico de um paciente, mesmo que ele tenha passado por outra unidade, para tomar decisões mais seguras. | - Unificar histórico entre unidades<br>- Garantir acesso apenas a profissionais autorizados<br>- Exibir linha do tempo dos atendimentos por unidade |
-| US03  | Como Dr. João, quero visualizar exames, laudos e receitas anteriores em um único lugar, para ter contexto clínico completo. | - Disponibilizar exames, laudos e receitas em ordem cronológica<br>- Agrupar por tipo e data<br>- Permitir download e visualização em PDF |
-| US11  | Como Dr. João, quero prescrever medicamentos digitalmente, para facilitar e registrar os tratamentos. | - Permitir prescrição via sistema com assinatura digital<br>- Integrar com o prontuário eletrônico do paciente<br>- Armazenar prescrições de forma segura e acessível |
-| US12  | Como Dr. João, quero receber alertas de interações medicamentosas ao prescrever, para evitar riscos ao paciente. | - Exibir alerta em tempo real ao inserir combinação de medicamentos<br>- Mostrar descrição do risco e alternativa segura<br>- Impedir envio da prescrição até revisão pelo médico |
-| US06  | Como Rafael (coordenador), quero visualizar a agenda de todos os médicos e especialistas em uma única interface, para evitar conflitos de horários. | - Exibir agendas integradas em calendário semanal/mensal<br>- Permitir filtros por especialidade ou profissional<br>- Indicar conflitos de horário com alertas visuais |
-| US13  | Como Lívia (farmacêutica), quero receber prescrições digitalmente e de forma legível, para minimizar erros na dispensação. | - Integrar farmácia ao módulo de prescrição digital<br>- Exibir prescrições com nome do médico, CRM e assinatura digital<br>- Impedir prescrições incompletas ou ambíguas |
-| US04  | Como Clara (paciente), quero poder visualizar meu histórico médico pelo portal do paciente, para acompanhar minha saúde. | - Exibir histórico de forma segura após login autenticado<br>- Listar atendimentos, diagnósticos e prescrições<br>- Permitir exportar dados em PDF |
-| US05  | Como Roberto (diretor de TI), quero garantir que todos os acessos ao prontuário sejam auditáveis, para manter a conformidade com a LGPD. | - Registrar data, hora, usuário e motivo do acesso<br>- Armazenar logs por tempo definido em política de conformidade<br>- Disponibilizar relatórios de auditoria sob demanda |
-| US07  | Como Maria, quero agendar múltiplas especialidades para um paciente em sequência, sem ter que reiniciar o processo. | - Permitir seleção de múltiplas especialidades no mesmo fluxo<br>- Visualizar horários disponíveis em sequência<br>- Confirmar agendamento conjunto ao final |
-| US08  | Como Clara, quero agendar e reagendar consultas online, para evitar ligações e deslocamentos. | - Permitir login e acesso à agenda disponível<br>- Confirmar agendamento com envio de comprovante por e-mail<br>- Possibilitar reagendamento com cancelamento automático do anterior |
-| US09  | Como Clara, quero receber notificações por SMS ou e-mail sobre minhas consultas, para não me esquecer dos compromissos. | - Enviar notificações automáticas com antecedência configurável<br>- Permitir opção de canal (SMS, e-mail)<br>- Confirmar envio com registro no histórico do paciente |
-| US14  | Como Lívia, quero confirmar que um medicamento foi entregue ao paciente, para manter o controle de estoque e registro. | - Registrar data, hora e responsável pela entrega<br>- Vincular entrega à prescrição específica<br>- Atualizar estoque automaticamente após confirmação |
-| US15  | Como Clara, quero receber lembretes das medicações que devo tomar, para seguir corretamente meu tratamento. | - Permitir cadastro de horários de medicação<br>- Enviar lembretes por SMS, e-mail ou notificação push<br>- Permitir confirmação de dose tomada |
-| US17  | Como Clara, quero verificar meu histórico de consultas, diagnósticos e receitas anteriores, para me manter informada. | - Listar cronologicamente consultas, diagnósticos e prescrições<br>- Permitir download em formato PDF<br>- Proteger acesso via autenticação segura |
-| US16  | Como Clara, quero acessar meus resultados de exames no portal, para acompanhar minha evolução. | - Listar exames com data, tipo e profissional responsável<br>- Permitir download do laudo em PDF<br>- Notificar o paciente quando o exame estiver disponível |
-| US10  | Como Roberto, quero que os dados de agendamento estejam sincronizados em tempo real entre unidades, para garantir consistência. | - Atualizar agendamentos em tempo real em todas as unidades<br>- Garantir consistência entre sistemas distribuídos<br>- Registrar falhas de sincronização e gerar alertas |
-| US18  | Como Clara, quero atualizar meus dados de contato e endereço pelo portal, para garantir que minhas informações estejam corretas. | - Exibir dados atuais com opção de edição<br>- Validar campos obrigatórios (ex: e-mail, CEP)<br>- Confirmar alterações via e-mail ou SMS |
-| US19  | Como Clara, quero visualizar a lista de medicamentos em uso, para evitar duplicidade ou erro. | - Listar medicamentos ativos com posologia e data de início<br>- Indicar se o medicamento foi prescrito digitalmente<br>- Exibir alertas de possíveis interações medicamentosas |
-| US20  | Como Roberto, quero monitorar o desempenho do sistema em tempo real, para evitar interrupções. | - Exibir dashboard com métricas de desempenho (tempo de resposta, uptime, etc.)<br>- Gerar alertas em caso de falhas ou lentidão<br>- Registrar histórico de métricas para análise |
-| US21  | Como Roberto, quero gerar relatórios de auditoria sobre acessos aos prontuários, para manter a conformidade com normas legais. | - Permitir filtro por período, usuário, paciente ou unidade<br>- Exportar relatórios em PDF ou Excel<br>- Garantir rastreabilidade completa de cada acesso |
-| US22  | Como Roberto, quero aplicar atualizações sem interromper o serviço nas unidades, para garantir continuidade. | - Permitir atualizações em modo hot-swap (sem downtime)<br>- Garantir rollback automático em caso de falha<br>- Notificar administradores sobre janelas de manutenção |
-| US23  | Como Roberto, quero contar com suporte técnico automatizado e escalável, para resolver incidentes rapidamente. | - Implementar chatbot para suporte inicial<br>- Escalonar automaticamente chamados urgentes para humanos<br>- Integrar sistema de chamados com histórico e SLA |
+| US01  | Como Dr. Luiz, quero acessar rapidamente o histórico clínico do paciente, para tomar decisões mais seguras. | - Exibir histórico clínico completo de forma cronológica<br>- Permitir filtros por tipo de atendimento, data e profissional<br>- Garantir acesso apenas a profissionais de saúde autenticados |
+| US02  | Como Dr. Luiz, quero registrar consultas e evolução clínica de forma digital e padronizada, para facilitar o acompanhamento. | - Oferecer campo estruturado e campo livre para anotação<br>- Associar anotação ao prontuário com data e CRM do médico<br>- Permitir edição dentro de tempo limitado por segurança |
+| US03  | Como Dr. Luiz, quero prescrever medicamentos digitalmente, para facilitar e registrar os tratamentos. | - Permitir prescrição via lista padronizada<br>- Registrar data, CRM e assinatura digital<br>- Integrar com o prontuário e farmácia |
+| US04  | Como Dr. Luiz, quero receber alertas de interações medicamentosas ao prescrever, para evitar riscos ao paciente. | - Verificar interações automaticamente<br>- Exibir alerta com detalhes e sugestão alternativa<br>- Bloquear envio até confirmação do profissional |
+| US05  | Como Maria, quero registrar novos pacientes de forma rápida e padronizada, para agilizar o atendimento. | - Validar CPF, nome completo e dados obrigatórios<br>- Exibir alerta em caso de duplicidade<br>- Salvar cadastro com confirmação |
+| US06  | Como Maria, quero visualizar a disponibilidade de todos os profissionais, para marcar consultas com facilidade. | - Exibir agenda semanal/diária por profissional<br>- Permitir filtro por especialidade e unidade<br>- Indicar bloqueios e horários indisponíveis |
+| US07  | Como Maria, quero reagendar consultas com poucos cliques, para reduzir o tempo gasto com remarcações. | - Permitir seleção de nova data e cancelar automaticamente a anterior<br>- Reenviar comprovante por e-mail<br>- Registrar histórico de reagendamentos |
+| US08  | Como Maria, quero acessar informações básicas do paciente já cadastrado, para evitar duplicidade e retrabalho. | - Exibir nome, data de nascimento, CPF, última visita e unidade<br>- Mostrar alertas de atualização cadastral<br>- Bloquear edição sem permissão específica |
+| US09  | Como Lívia, quero receber prescrições digitalmente, para evitar erros de digitação ou interpretação. | - Exibir prescrições com assinatura digital, CRM e nome do médico<br>- Validar campos obrigatórios antes de liberar<br>- Permitir visualização agrupada por paciente ou data |
+| US10  | Como Lívia, quero registrar a dispensação com vínculo direto à prescrição, para manter rastreabilidade. | - Registrar data, hora, profissional e item entregue<br>- Vincular à prescrição correspondente<br>- Atualizar estoque automaticamente |
+| US11  | Como Lívia, quero verificar automaticamente interações medicamentosas, para garantir segurança do paciente. | - Integrar com base de interações medicamentosas<br>- Exibir alerta e impedir dispensação sem confirmação<br>- Registrar decisão do farmacêutico |
+| US12  | Como Lívia, quero consultar o histórico de medicações dispensadas, para apoiar a continuidade do tratamento. | - Listar por paciente: medicamento, data de prescrição e entrega<br>- Permitir filtro por período ou especialidade<br>- Exportar em PDF ou Excel |
+| US13  | Como Rafael, quero visualizar todas as agendas médicas em um único sistema, para evitar conflitos. | - Exibir agendas por unidade ou especialidade<br>- Indicar conflitos com alertas visuais<br>- Permitir navegação por dia/semana/mês |
+| US14  | Como Rafael, quero reatribuir horários de forma otimizada, para minimizar ociosidade. | - Sugerir realocação por prioridade e disponibilidade<br>- Notificar médico e paciente<br>- Registrar alteração no histórico |
+| US15  | Como Rafael, quero automatizar notificações de confirmação de consulta, para reduzir faltas. | - Enviar confirmações por e-mail/SMS com antecedência configurável<br>- Registrar envio e status<br>- Permitir desativação por preferência do paciente |
+| US16  | Como Rafael, quero gerar relatórios de uso da agenda, para planejar escalas com base em dados. | - Gerar por médico, unidade ou período<br>- Indicar ausências, cancelamentos e comparecimentos<br>- Exportar em Excel |
+| US17  | Como Clara, quero visualizar minhas consultas agendadas, para planejar minha rotina. | - Exibir em tela inicial do portal<br>- Atualizar automaticamente após reagendamento<br>- Permitir adicionar ao calendário pessoal |
+| US18  | Como Clara, quero acessar resultados de exames online, para acompanhar meu tratamento. | - Listar por data, tipo de exame e status<br>- Permitir download em PDF<br>- Notificar paciente por e-mail quando disponível |
+| US19  | Como Clara, quero receber lembretes automáticos de medicação e retorno, para manter a adesão ao tratamento. | - Permitir cadastro de horários e medicamentos<br>- Enviar lembretes por SMS, e-mail ou push<br>- Registrar confirmação de dose tomada |
+| US20  | Como Clara, quero reagendar uma consulta diretamente pelo portal, para evitar ligações ou deslocamentos desnecessários. | - Exibir opções compatíveis por profissional e unidade<br>- Cancelar automaticamente a anterior<br>- Reenviar comprovante atualizado |
+| US21  | Como Roberto, quero integrar os sistemas das unidades, para centralizar as informações de saúde. | - Garantir sincronização de pacientes, agendamentos e prontuários<br>- Monitorar falhas e emitir alertas<br>- Validar consistência periodicamente |
+| US22  | Como Roberto, quero garantir a segurança dos dados de pacientes, para estar em conformidade com a legislação. | - Armazenar dados criptografados com backup automático<br>- Controlar acesso por perfil de usuário<br>- Gerar relatórios de acesso e alteração |
+| US23  | Como Roberto, quero obter indicadores consolidados da operação, para tomar decisões estratégicas. | - Exibir painel com KPIs de uso e performance<br>- Configurar alertas por limite<br>- Exportar dados para BI |
+| US24  | Como Roberto, quero implementar soluções escaláveis, para permitir crescimento sem retrabalho. | - Suportar crescimento de unidades e usuários<br>- Garantir disponibilidade > 99,5%<br>- Permitir atualizações modulares com rollback |
+
 
 ---
 
 ## BDD
 
+Foram construídos os cenários para os critérios de aceitação das 12 histórias de usuário mais prioritárias.
+
+### US01 – Acessar histórico clínico do paciente
+
+**Critério 1:** O sistema deve exibir o histórico clínico completo do paciente em ordem cronológica.
+
+- **Cenário 1 (positivo):**
+Dado que o profissional está autenticado e acessa o prontuário do paciente,
+Quando ele solicita a visualização do histórico,
+Então o sistema deve exibir as informações clínicas ordenadas cronologicamente.
+
+**Critério 2:** O sistema deve permitir filtros por tipo de atendimento, data e profissional.
+
+- **Cenário 2 (positivo):**
+Dado que o profissional está na tela de histórico,
+Quando ele aplica um filtro por tipo de atendimento "Consulta" e intervalo de datas,
+Então o sistema deve exibir apenas os registros correspondentes.
+
+**Critério 3:** Apenas profissionais autorizados devem ter acesso.
+
+- **Cenário 3 (negativo):**
+Dado que um usuário sem perfil de profissional tenta acessar o histórico,
+Quando ele realiza a tentativa,
+Então o sistema deve exibir "Acesso negado".
+
+
+### US03 – Prescrever medicamentos digitalmente
+
+**Critério 1:** O sistema deve permitir prescrição por lista padronizada de medicamentos.
+
+* **Cenário 1 (positivo):**
+  Dado que o médico está autenticado,
+  Quando ele acessa a prescrição e seleciona um medicamento da lista,
+  Então o medicamento deve ser adicionado à prescrição.
+
+**Critério 2:** A prescrição deve ser salva com CRM, data e assinatura digital.
+
+* **Cenário 2 (positivo):**
+  Dado que o médico conclui o preenchimento,
+  Quando ele clica em "Finalizar",
+  Então o sistema deve salvar com os dados do profissional e assinatura.
+
+**Critério 3:** Deve haver integração com prontuário e farmácia.
+
+* **Cenário 3 (positivo):**
+  Dado que a prescrição é salva,
+  Quando a farmácia acessa a ficha do paciente,
+  Então a prescrição deve estar visível para dispensar.
+
+### US04 – Alertas de interações medicamentosas
+
+**Critério 1:** O sistema deve verificar interações automaticamente a cada prescrição.
+
+* **Cenário 1 (positivo):**
+  Dado que o médico adiciona dois medicamentos com interação,
+  Quando ele tenta finalizar a prescrição,
+  Então o sistema deve exibir o alerta.
+
+**Critério 2:** O alerta deve conter descrição do risco e alternativa segura.
+
+* **Cenário 2 (positivo):**
+  Dado o alerta de interação,
+  Quando ele é exibido,
+  Então deve incluir a descrição do risco e sugestão de alternativa.
+
+**Critério 3:** A prescrição deve ser bloqueada até confirmação.
+
+* **Cenário 3 (negativo):**
+  Dado que o médico ignora o alerta,
+  Quando ele tenta salvar sem confirmar,
+  Então o sistema deve impedir o envio.
+
+### US05 – Registrar novos pacientes
+
+**Critério 1:** O sistema deve validar CPF, nome completo e dados obrigatórios.
+
+* **Cenário 1 (positivo):**
+  Dado que a recepcionista preenche todos os campos,
+  Quando clica em salvar,
+  Então o sistema deve aceitar o cadastro.
+
+**Critério 2:** Alerta de duplicidade deve ser exibido quando aplicável.
+
+* **Cenário 2 (negativo):**
+  Dado que um CPF já existe,
+  Quando a recepcionista tenta salvar,
+  Então o sistema deve exibir "Paciente já cadastrado".
+
+**Critério 3:** Cadastro deve exibir confirmação de sucesso.
+
+* **Cenário 3 (positivo):**
+  Dado que todos os dados foram aceitos,
+  Quando o cadastro é concluído,
+  Então o sistema deve mostrar "Cadastro realizado com sucesso".
+
+### US06 – Visualizar disponibilidade de profissionais
+
+**Critério 1:** Exibir agenda em formato semanal/diário por profissional.
+
+* **Cenário 1 (positivo):**
+  Dado que a recepcionista acessa a agenda de um profissional,
+  Quando seleciona o filtro semanal,
+  Então o sistema deve exibir os horários disponíveis daquele período.
+
+**Critério 2:** Permitir filtro por especialidade, localidade e unidade.
+
+* **Cenário 2 (positivo):**
+  Dado que a recepcionista está na tela de agendamento,
+  Quando ela filtra por especialidade "Pediatria" e unidade "Hospital Central",
+  Então apenas os médicos da pediatria nessa unidade devem ser exibidos.
+
+**Critério 3:** Indicar bloqueios e horários indisponíveis.
+
+* **Cenário 3 (positivo):**
+  Dado que o profissional tem bloqueios cadastrados,
+  Quando a agenda é carregada,
+  Então os horários bloqueados devem aparecer como indisponíveis.
+
+### US09 – Receber prescrições digitalmente
+
+**Critério 1:** Exibir prescrições com assinatura digital, CRM e nome do médico.
+
+* **Cenário 1 (positivo):**
+  Dado que a farmacêutica acessa o sistema,
+  Quando ela abre uma prescrição,
+  Então o sistema deve exibir o nome do médico, CRM e assinatura digital.
+
+**Critério 2:** Validar campos obrigatórios da prescrição antes de liberar.
+
+* **Cenário 2 (negativo):**
+  Dado que uma prescrição não contém todos os campos obrigatórios,
+  Quando a farmacêutica tenta visualizar,
+  Então o sistema deve exibir a mensagem "Prescrição incompleta".
+
+**Critério 3:** Permitir visualização agrupada por paciente ou data.
+
+* **Cenário 3 (positivo):**
+  Dado que a farmacêutica deseja consultar prescrições,
+  Quando ela aplica filtro por paciente "João Souza",
+  Então o sistema deve listar apenas as prescrições dele, organizadas por data.
+
+### US10 – Registrar dispensação com vínculo à prescrição
+
+**Critério 1:** Registrar data, hora, profissional e item entregue.
+
+* **Cenário 1 (positivo):**
+  Dado que a farmacêutica entrega o medicamento,
+  Quando ela confirma a dispensação,
+  Então o sistema deve salvar data, hora, nome do profissional e item entregue.
+
+**Critério 2:** Vincular entrega à prescrição correspondente.
+
+* **Cenário 2 (positivo):**
+  Dado que a dispensação está sendo realizada a partir de uma prescrição,
+  Quando a entrega é registrada,
+  Então o vínculo com a prescrição deve ser automático.
+
+**Critério 3:** Atualizar estoque automaticamente.
+
+* **Cenário 3 (positivo):**
+  Dado que o medicamento foi entregue,
+  Quando a ação for registrada,
+  Então o sistema deve dar baixa no estoque.
+
+### US13 – Visualizar agendas médicas unificadas
+
+**Critério 1:** Exibir agendas por unidade ou especialidade.
+
+* **Cenário 1 (positivo):**
+  Dado que o coordenador seleciona a unidade "Hospital Central",
+  Quando ele abre a tela de agendas,
+  Então o sistema deve listar todos os horários disponíveis por especialidade.
+
+**Critério 2:** Indicar conflitos de horário com alerta visual.
+
+* **Cenário 2 (positivo):**
+  Dado que dois agendamentos estão sobrepostos,
+  Quando o coordenador os visualiza,
+  Então o sistema deve destacá-los em vermelho com ícone de alerta.
+
+**Critério 3:** Permitir navegação por dia/semana/mês.
+
+* **Cenário 3 (positivo):**
+  Dado que o coordenador acessa o calendário,
+  Quando ele clica em "semana",
+  Então o sistema deve exibir a visualização semanal da agenda.
+
+### US15 – Notificações automáticas de consultas
+
+**Critério 1:** Enviar confirmações por e-mail/SMS com antecedência definida.
+
+* **Cenário 1 (positivo):**
+  Dado que uma consulta está marcada para amanhã,
+  Quando o horário de envio chega,
+  Então o sistema deve disparar a notificação por SMS ou e-mail.
+
+**Critério 2:** Registrar envio e status (entregue, lido, erro).
+
+* **Cenário 2 (positivo):**
+  Dado que a notificação foi enviada,
+  Quando o sistema processa a entrega,
+  Então o status deve ser registrado corretamente no histórico.
+
+**Critério 3:** Permitir desativação por preferência do paciente.
+
+* **Cenário 3 (positivo):**
+  Dado que o paciente desativou notificações,
+  Quando uma consulta é marcada,
+  Então o sistema não deve enviar lembretes.
+
+### US17 – Visualizar consultas agendadas
+
+**Critério 1:** Exibir consultas na tela inicial do portal.
+
+* **Cenário 1 (positivo):**
+  Dado que Clara está logada no portal,
+  Quando ela acessa a página inicial,
+  Então o sistema deve exibir as consultas agendadas.
+
+**Critério 2:** Atualizar automaticamente após reagendamento.
+
+* **Cenário 2 (positivo):**
+  Dado que uma consulta foi reagendada,
+  Quando Clara acessa a página de consultas,
+  Então a nova data e hora devem estar refletidas.
+
+**Critério 3:** Permitir adicionar ao calendário pessoal.
+
+* **Cenário 3 (positivo):**
+  Dado que Clara vê uma consulta na tela,
+  Quando ela clica em "Adicionar ao calendário",
+  Então o sistema deve exportar o evento no formato compatível.
+
+### US18 – Acessar resultados de exames
+
+**Critério 1:** Listar exames por data, tipo e status.
+
+* **Cenário 1 (positivo):**
+  Dado que Clara acessa o portal,
+  Quando ela entra na seção de exames,
+  Então o sistema deve listar os exames com tipo, data e status.
+
+**Critério 2:** Permitir download em PDF.
+
+* **Cenário 2 (positivo):**
+  Dado que o exame está disponível,
+  Quando Clara clica em "Download",
+  Então o sistema deve baixar o arquivo em PDF.
+
+**Critério 3:** Notificar paciente quando exame estiver publicado.
+
+* **Cenário 3 (positivo):**
+  Dado que um exame foi liberado,
+  Quando o sistema atualiza o status,
+  Então uma notificação deve ser enviada para Clara por e-mail.
+
+### US22 – Garantir segurança e conformidade
+
+**Critério 1:** Armazenar dados criptografados com backup automático.
+
+* **Cenário 1 (positivo):**
+  Dado que um prontuário foi atualizado,
+  Quando o sistema salva as alterações,
+  Então os dados devem ser criptografados e o backup registrado.
+
+**Critério 2:** Controlar acesso por perfis de usuário.
+
+* **Cenário 2 (positivo):**
+  Dado que um usuário comum tenta acessar dados administrativos,
+  Quando ele realiza a tentativa,
+  Então o sistema deve negar acesso e registrar tentativa indevida.
+
+**Critério 3:** Gerar relatórios de acesso e alteração.
+
+* **Cenário 3 (positivo):**
+  Dado que um administrador acessa o módulo de auditoria,
+  Quando ele solicita um relatório,
+  Então o sistema deve gerar um documento com logs de acesso e edições.
 
