@@ -27,20 +27,22 @@ Cada membro do grupo atribuiu notas de 1 a 4 para todos os requisitos, correspon
 
 | Funcionalidade                                         | Impacto | Confiança | Facilidade | ICE Score | Prioridade  |
 |--------------------------------------------------------|---------|-----------|------------|-----------|-------------|
-| [Realizar cadastro de cliente](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/9)                            | 9       | 9         | 8          | 648       | Must Have   |
-| [Realizar login do cliente](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/6)                              | 9       | 9         | 7          | 567       | Must Have   |
-| [Realizar logoff do cliente](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/12)                             | 9       | 9         | 7          | 567       | Must Have   |
-| [Editar dados pessoais cadastrados do cliente](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/13)       | 8       | 8         | 7          | 448       | Must Have   |
-| [Cadastrar equipamento na lista de equipamentos](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/26) | 7       | 7         | 7          | 343       | Should Have |
-| [Realizar consultas de equipamentos](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/15)                      | 7       | 7         | 6          | 294       | Should Have |
-| [Detalhar informações do equipamento](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/17)                    | 5       | 8         | 7          | 280       | Could Have  |
-| [Adicionar equipamentos ao carrinho](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/19)                     | 6       | 6         | 7          | 252       | Could Have  |
-| [Exibir histórico de reservas do cliente.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/22)                | 7       | 9         | 6          | 378       | Should Have |
-| [Criar orçamento de uma reserva.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/24)                         | 7       | 9         | 5          | 315       | Should Have |
-| [Consultar agenda de eventos.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/30)                            | 6       | 8         | 5          | 240       | Could Have  |
-| [Realizar reservas](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/53)                                      | 7       | 7         | 6          | 294       | Should Have |
-| [Emitir relatórios de reservas.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/34)            | 7       | 8         | 5          | 280       | Could Have  |
-| [Aprovar reserva solicitada.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/55) | | | | |
+| [Realizar cadastro do cliente.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/72)                    | 9,5     | 8,5     | 9       | 727       | Must Have   |
+| [Realizar login do cliente.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/30)                       | 9,33    | 9,33    | 8,33    | 726       | Must Have   |
+| [Realizar logoff do cliente.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/90)                      | 8,33    | 8,67    | 8,17    | 590       | Must Have   |
+| [Editar os dados pessoais cadastrados do cliente.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/14) | 8,17    | 8,5     | 7,67    | 532       | Must Have   |
+| [Cadastrar equipamento na lista de equipamentos](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/29)   | 7,83    | 7,33    | 7,33    | 421       | Must Have   |
+| [Realizar consulta de equipamentos.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/75)               | 7,67    | 8       | 6,33    | 388       | Must Have   |
+| [Detalhar informações do equipamento.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/98)             | 7,5     | 7,5     | 6,83    | 384       | Should Have |
+| [Adicionar equipamentos ao carrinho.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/68)              | 7       | 7,67    | 6,83    | 367       | Should Have |
+| [Realizar reservas](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/30)                                | 6,67    | 6,83    | 6,5     | 296       | Should Have |
+| [Aprovar reserva solicitada.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/19)                      | 6,17    | 6,33    | 5,67    | 221       | Should Have |
+| [Criar orçamento de uma reserva.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/5)                   | 5,67    | 6,5     | 5,83    | 215       | Could Have  |
+| [Exibir histórico de reservas do cliente.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/1)          | 5,83    | 5,83    | 5,83    | 198       | Could Have  |
+| [Consultar agenda de eventos.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/40)                     | 5,33    | 5       | 5,33    | 142       | Could Have  |
+| [Cancelar reserva já agendada.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/82)                    | 4,33    | 4,83    | 5,17    | 108       | Could Have  |
+| [Emitir relatórios de reservas.](https://github.com/mdsreq-fga-unb/2025.1-T01-ReflexSom/issues/12)                   | 4,17    | 4,67    | 5,5     | 107       | Won't Have  |
+
 
 <!-- | Criar painel de controle de reservas                   | 8       | 8         | 5          | 320       | Should Have | -->
 ---
