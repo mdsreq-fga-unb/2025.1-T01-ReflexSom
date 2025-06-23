@@ -5,6 +5,12 @@ Utilizamos o Product Backlog Building (PBB) para construir o Product Backlog da 
 
 ---
 
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVIlHH_H4=/?embedMode=view_only_without_ui&moveToViewport=-9003,-3717,12903,5969&embedId=824749818465" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
+---
+
+
+
 ## Backlog de Produto
 
 
@@ -134,5 +140,9 @@ Critérios de aceitação das 23 histórias de usuário priorizadas.
 | US21  | Como Roberto, quero gerar relatórios de auditoria sobre acessos aos prontuários, para manter a conformidade com normas legais. | - Permitir filtro por período, usuário, paciente ou unidade<br>- Exportar relatórios em PDF ou Excel<br>- Garantir rastreabilidade completa de cada acesso |
 | US22  | Como Roberto, quero aplicar atualizações sem interromper o serviço nas unidades, para garantir continuidade. | - Permitir atualizações em modo hot-swap (sem downtime)<br>- Garantir rollback automático em caso de falha<br>- Notificar administradores sobre janelas de manutenção |
 | US23  | Como Roberto, quero contar com suporte técnico automatizado e escalável, para resolver incidentes rapidamente. | - Implementar chatbot para suporte inicial<br>- Escalonar automaticamente chamados urgentes para humanos<br>- Integrar sistema de chamados com histórico e SLA |
+
+---
+
+## BDD
 
 

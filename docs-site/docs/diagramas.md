@@ -1,5 +1,5 @@
 # Casos de Usos
-![Logo](imagens/casouso.jpg)
+![Logo](imagens/CasoUso2.0.jpg)
 
 ---
 # Diagrama de Atividades

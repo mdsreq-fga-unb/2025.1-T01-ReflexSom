@@ -12,7 +12,7 @@
 
 | Iteração | Início     | Fim        | Objetivos e entregas esperadas                              | Casos de Uso Relacionados                              |
 |----------|------------|------------|-------------------------------------------------------------|--------------------------------------------------------|
-| E1       | 21/04/2025 | 27/04/2025 | Elicitação e descoberta, levantamento e formalização dos requisitos | Todos os casos de uso (levantamento e análise)          |
+| E1       | 21/04/2025 | 27/04/2025 | Elicitação e descoberta, levantamento e formalização dos requisitos | [Todos os casos de uso e Diagrama de atividades (levantamento e análise)](diagramas.md)          |
 | E2       | 05/05/2025 | 11/05/2025 | Definir o MVP                                                | -                                                      |
 | E3       | 12/05/2025 | 18/05/2025 | Definir DoR e DoD                                           | -                                                      |
 

@@ -21,7 +21,7 @@ nav:
     - Requisitos de Software: 
       - Lista de requisitos: requisitos.md
       - Priorização e MVP: mvp.md
-      - Diagramas: casosUso.md
+      - Diagramas: diagramas.md
       - Mapa de Rastreabilidade: mapRast.md
       - Arquitetura: arq.md
     - DoR e DoD: dordod.md
