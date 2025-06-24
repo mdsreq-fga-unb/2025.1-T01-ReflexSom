@@ -18,14 +18,14 @@
 
 ## Construção
 
-| Iteração | Início     | Fim        | Objetivos e entregas esperadas                              | Casos de Uso Relacionados                              |
-|----------|------------|------------|-------------------------------------------------------------|--------------------------------------------------------|
+| Iteração | Início     | Fim        | Objetivos e entregas esperadas | Casos de Uso Relacionados |
+|----------|------------|------------|---------|-----------------|
 | C1       | 26/05/2025 | 01/06/2025 | Desenvolvimento: banco de dados, funções de cadastro de clientes. Refinamento e validação contínua dos requisitos. | Realizar cadastro do cliente                            |
-| C2       | 02/06/2025 | 08/06/2025 | Desenvolvimento: endpoint de cadastro, login, autenticação e geração de token/sessão. Ajustes nos requisitos conforme feedback. | Realizar cadastro do cliente, Realizar login do cliente |
+| C2       | 02/06/2025 | 08/06/2025 | Desenvolvimento: endpoint de cadastro, login, autenticação e geração de token/sessão. Ajustes nos requisitos conforme feedback. | Realizar login do cliente |
 | C3       | 09/06/2025 | 15/06/2025 | Desenvolvimento: atualização/edição de dados do cliente, logoff. Validação dos requisitos implementados. | Editar os dados pessoais cadastrados do cliente, Realizar logoff do cliente |
-| C4       | 16/06/2025 | 22/06/2025 | Desenvolvimento: listagem, busca e detalhamento de equipamentos. Ajustes nos requisitos conforme testes. | Realizar consulta de equipamentos, Detalhar informações do equipamento |
-| C5       | 23/06/2025 | 29/06/2025 | Desenvolvimento: endpoint para detalhes de equipamento e adicionar ao carrinho. Revisão dos requisitos relacionados. | Detalhar informações do equipamento, Adicionar equipamentos ao carrinho |
-| C6       | 30/06/2025 | 06/07/2025 | Desenvolvimento: visualização de relatórios de reservas e testes. Ajustes finais de requisitos e testes integrados. | Emitir relatórios de reservas, Exibir histórico de reservas do cliente |
+| C4       | 16/06/2025 | 22/06/2025 | Desenvolvimento: listagem, busca e detalhamento de equipamentos. Ajustes nos requisitos conforme testes. | Cadastrar equipamento na lista de equipamentos |
+| C5       | 23/06/2025 | 29/06/2025 | Desenvolvimento: endpoint para detalhes de equipamento e adicionar ao carrinho. Revisão dos requisitos relacionados. | Realizar consulta de equipamentos; Detalhar informações do equipamento|
+| C6       | 30/06/2025 | 06/07/2025 | Desenvolvimento: visualização de relatórios de reservas e testes. Ajustes finais de requisitos e testes integrados. | Adicionar equipamentos ao carrinho |
 
 ## Transição
 
