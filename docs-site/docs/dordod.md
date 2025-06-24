@@ -1,4 +1,4 @@
-## Definition of Ready (DoR)
+# DEFINITION OF READY (DoR)
 
 Um item da lista de requisitos estará preparado para iniciar em uma iteração quando:
 
@@ -18,4 +18,4 @@ Um item da lista de requisitos será considerado feito quando:
 - **Testes realizados:** Passou pelo teste de integração.
 - **Integração concluída:** Frontend e backend funcionando juntos adequadamente.
 - **Versionamento e documentação:** Código está no repositório e devidamente documentado com endpoints e funcionalidades registrados no MkDocs.
-- **Revisão de interface:** Foi validada com o cliente.
+- **Revisão de interface:** Foi validada com o cliente por meio de reuniões, cujas atas ficam registradas [aqui](evidencias.md).

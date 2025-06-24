@@ -39,6 +39,8 @@
 
 ***MoSCoW***: A equipe aplicará a técnica de priorização MoSCoW (Must, Should, Could, Won’t) para separar funcionalidades obrigatórias e opcionais, especialmente úteis na definição do escopo do MVP.
 
+***ICE Scoring***: A equipe utilizará o método de priorização ICE (Impacto, Confiança e Facilidade) para atribuir uma pontuação numérica às funcionalidades, auxiliando na tomada de decisões mais objetivas. A análise considera o impacto da funcionalidade no valor do produto, o grau de confiança na entrega conforme planejado e a facilidade de implementação técnica, permitindo uma priorização baseada em critérios quantitativos e alinhada à realidade da equipe.
+
 ***Mapa de Rastreabilidade***: Será criado um mapa relacionando os requisitos com os objetivos de negócio e funcionalidades entregues, o que ajudará na auditoria e evolução futura da solução.
 
 ---
@@ -49,15 +51,15 @@
 | **Fases do Processo** | **Atividades ER**         | **Prática**    | **Técnica**   | **Resultado Esperado**  |
 | ---------- | ------------------ | ---------------- | ------------| -----------------|
 | **Iniciação**   | Elicitação e Descoberta   | Coleta com stakeholders    |  Entrevista / Grupo Focal  | Lista de necessidades  |
-|   | Elicitação e Descoberta   |  Sessões com equipe multidisciplinar  | Brainstorming  | Lista de Requisitos RFs  |
+|   | Elicitação e Descoberta   |  Sessões com equipe multidisciplinar  | Brainstorming  | [Lista de Requisitos RFs](requisitos.md)  |
 |   | Análise e Consenso   | Estudo dos objetivos do negócio    | Análise de Objetivo de Domínio  | Visão de Produto     |
-| **Elaboração**  | Análise e Consenso | Definição de MVP | Negociação | Canvas MVP |
-|   | Declaração de Requisitos  |    | Casos de Uso  |  Casos de Uso  |
-|   | Representação de Requisitos | UML  | Diagrama (UML)  | Diagrama de atividade |
+| **Elaboração**  | Análise e Consenso | Definição de MVP | Negociação | [MVP](mvp.md) |
+|   | Declaração de Requisitos  |    | Casos de Uso  |  [Casos de Uso](diagramas.md)  |
+|   | Representação de Requisitos | UML  | Diagrama (UML)  | [Diagrama de atividade](diagramas.md) |
 |   | Verificação e Validação   | Revisão técnica e validação  |  DoR;DoD | DoR/DoD
-|   | Organização e Atualização | Relacionamento entre requisitos e objetivos  | Mapa de Rastreabilidade | Mapa de relações entre os Requisitos
-|   | Organização e Atualização | Priorização da Lista de Requisitos  |  MoSCoW  | Lista de requisitos priorizada
-| **Construção**  |  |  |  |
+|   | Organização e Atualização | Relacionamento entre requisitos e objetivos  | Mapa de Rastreabilidade | [Mapa de relações entre os Requisitos](mapRast.md)
+|   | Organização e Atualização | Priorização da Lista de Requisitos  |  MoSCoW e ICE Scoring | [Lista de requisitos priorizada](mvp.md)
+| **Construção**  | Verificação e Validação de Requisitos | Revisão técnica e validação | DoR; DoD  | [DoR/DoD](dordod.md)
 | **Transição** |  |  |  |
 
 <!-- |   | Verificação e Validação   | Revisão técnica e validação  |  Checklist  | Resultados do Checklist  

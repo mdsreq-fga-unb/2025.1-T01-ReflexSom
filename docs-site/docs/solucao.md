@@ -33,8 +33,8 @@ Permitir aos funcionários o acesso a um painel administrativo interno com contr
 **Frontend:**  
 - React.js (site e painel do cliente)
 
-**Design:**  
-- Figma (prototipação)
+<!-- **Design:**  
+- Figma (prototipação) -->
 
 **Backend:**  
 - Python com Django e Django Rest Framework
