@@ -31,8 +31,7 @@ nav:
     - Product Backlog Building: pbb.md
     - User Story Mapping: usm.md
   - Lições Aprendidas: licoes.md
-  - Apresentações:
-    - Unidade 1: unidade1.md
+  - Apresentações: apresentacoes.md
 extra_css:
   - styles.css
 

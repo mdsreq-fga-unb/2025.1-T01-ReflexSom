@@ -50,7 +50,7 @@ Decisões:
 - Próximas entregas envolvem carrinho, relatórios e histórico de reservas  
 
 ---
-
+<!-- 
 ## Fase de Transição
 - Período: 07/07/2025 a 20/07/2025  
 - Atividades: Disponibilização do sistema, coleta de feedback, entrega final ao cliente  
@@ -64,7 +64,7 @@ Pauta: Apresentação do sistema completo e coleta de feedback
 Decisões:
 - Cliente validou o funcionamento geral e propôs melhoria visual no histórico de reservas  
 - Equipe se comprometeu a aplicar os últimos ajustes até 14/07  
-- Projeto será finalizado com documentação e entrega formal ao cliente  
+- Projeto será finalizado com documentação e entrega formal ao cliente   -->
 
 ---
 
@@ -75,4 +75,6 @@ Decisões:
 | Iniciação   | Documento de Visão, Ata da Reunião de Iniciação                                       |
 | Elaboração  | Lista de Casos de Uso, Requisitos Não Funcionais, Diagrama de Atividades, Ata de Reunião |
 | Construção  | Critérios de Aceitação, Backlog atualizado, Ata da Reunião de Construção              |
-| Transição   | Relatório de Avaliação, Feedback do Cliente, Ata da Reunião Final                     |
+
+
+<!-- | Transição   | Relatório de Avaliação, Feedback do Cliente, Ata da Reunião Final                     | -->
