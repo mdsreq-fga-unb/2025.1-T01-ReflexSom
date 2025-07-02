@@ -30,6 +30,7 @@ nav:
   - Estudos de casos: 
     - Product Backlog Building: pbb.md
     - User Story Mapping: usm.md
+    - Caso de uso: casoUso.md
   - Lições Aprendidas: licoes.md
   - Apresentações: apresentacoes.md
 extra_css:
