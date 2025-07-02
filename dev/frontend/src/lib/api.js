@@ -9,6 +9,7 @@ const api = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
+  timeout: 10000, // 10 segundos timeout
 });
 
 // Interceptor para adicionar token de autenticação
@@ -174,6 +175,12 @@ export const equipamentoService = {
     return response.data;
   },
 
+  // Verificar se pode deletar equipamento
+  async verificarPodeDeletar(id) {
+    const response = await api.get(`/equipamentos/${id}/pode-deletar/`);
+    return response.data;
+  },
+
   // Listar equipamentos disponíveis
   async listarDisponiveis() {
     const response = await api.get('/equipamentos/disponiveis/');
@@ -206,6 +213,75 @@ export const equipamentoService = {
   // Equipamentos por categoria
   async listarPorCategoria(categoriaId, params = {}) {
     const response = await api.get(`/equipamentos/categoria/${categoriaId}/`, { params });
+    return response.data;
+  },
+
+  // Verificar disponibilidade
+  async verificarDisponibilidade(dataUso, itens) {
+    const response = await api.post('/equipamentos/verificar-disponibilidade/', {
+      data_uso: dataUso,
+      itens: itens
+    });
+    return response.data;
+  },
+
+  // Criar reserva
+  async criarReserva(reservaData) {
+    const response = await api.post('/equipamentos/reservas/criar/', reservaData);
+    return response.data;
+  },
+
+  // Listar reservas do cliente
+  async listarReservas() {
+    const response = await api.get('/equipamentos/reservas/');
+    return response.data;
+  },
+
+  // Obter detalhes de uma reserva
+  async obterDetalheReserva(id) {
+    const response = await api.get(`/equipamentos/reservas/${id}/`);
+    return response.data;
+  },
+};
+
+// Serviços de administração de reservas (apenas staff)
+export const adminReservaService = {
+  // Listar todas as reservas (admin)
+  async listarTodasReservas(filtros = {}) {
+    const params = new URLSearchParams();
+    
+    if (filtros.status) params.append('status', filtros.status);
+    if (filtros.cliente_id) params.append('cliente_id', filtros.cliente_id);
+    if (filtros.data_inicio) params.append('data_inicio', filtros.data_inicio);
+    if (filtros.data_fim) params.append('data_fim', filtros.data_fim);
+    
+    const response = await api.get(`/equipamentos/admin/reservas/?${params}`);
+    return response.data;
+  },
+
+  // Detalhes de uma reserva (admin)
+  async obterReservaAdmin(id) {
+    const response = await api.get(`/equipamentos/admin/reservas/${id}/`);
+    return response.data;
+  },
+
+  // Aprovar reserva
+  async aprovarReserva(id) {
+    const response = await api.post(`/equipamentos/admin/reservas/${id}/aprovar/`);
+    return response.data;
+  },
+
+  // Rejeitar reserva
+  async rejeitarReserva(id, motivo = '') {
+    const response = await api.post(`/equipamentos/admin/reservas/${id}/rejeitar/`, {
+      motivo
+    });
+    return response.data;
+  },
+
+  // Estatísticas de reservas
+  async obterEstatisticas() {
+    const response = await api.get('/equipamentos/admin/reservas/estatisticas/');
     return response.data;
   },
 };
