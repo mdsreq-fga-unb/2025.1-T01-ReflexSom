@@ -1,0 +1,58 @@
+services:
+  # Aplicação Django com SQLite
+  web:
+    build: .
+    command: >
+      sh -c "python manage.py migrate &&
+             python create_staff_user.py &&
+             python create_sample_data.py &&
+             python manage.py collectstatic --noinput &&
+             gunicorn backend.wsgi:application --bind 0.0.0.0:8000 --workers 3"
+    volumes:
+      - sqlite_data:/app/data  # Volume persistente para SQLite
+      - static_volume:/app/staticfiles
+      - media_volume:/app/media
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=False
+      - SECRET_KEY=your-secret-key-here
+      - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0,reflex-som.arthrok.shop
+      - DATABASE_ENGINE=sqlite
+      - DATABASE_NAME=/app/data/db.sqlite3
+      - DJANGO_SETTINGS_MODULE=backend.settings_docker
+    restart: unless-stopped
+
+  # Frontend React com Vite
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules  # Volume anônimo para node_modules
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_BASE_URL=//reflex-som.arthrok.shop/api
+      - VITE_MODE=production
+    restart: unless-stopped
+    depends_on:
+      - web
+
+  # Nginx (proxy reverso)
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - static_volume:/app/staticfiles
+      - media_volume:/app/media
+    depends_on:
+      - web
+      - frontend
+    restart: unless-stopped
+
+volumes:
+  sqlite_data:  # Volume persistente para SQLite
+  static_volume:
+  media_volume: 
