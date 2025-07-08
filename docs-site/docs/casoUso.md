@@ -121,4 +121,112 @@ Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a p
 
 ---
 
-## Caso de uso 2: 
+## Caso de uso 2: Organizar Entrevistas
+
+Aluna: Clara
+
+### 1. Breve Descrição
+
+Este caso de uso descreve o processo pelo qual um **empregador parceiro** utiliza a plataforma **HopeBridge** para **organizar entrevistas com refugiados** que se candidataram a oportunidades de emprego ou capacitação. A funcionalidade permite o agendamento, envio de convites, confirmação de presença e registro do cronograma, promovendo o contato direto entre empregadores e candidatos.
+
+
+### 2. Fluxo Básico de Eventos
+
+**Ator Primário:** Empregador Parceiro
+
+1) O caso de uso inicia quando o empregador acessa a plataforma com credenciais válidas.
+
+2) O sistema autentica o empregador e exibe o painel de controle.
+
+3) O empregador acessa a lista de oportunidades anunciadas.
+
+4) O empregador seleciona uma oportunidade e visualiza a lista de candidatos interessados.
+
+5) O empregador seleciona um ou mais candidatos para agendar entrevistas.
+
+6) O sistema exibe um formulário de agendamento com os seguintes campos:
+
+   * Data e horário da entrevista;
+   * Local (presencial) ou link (remoto);
+   * Tipo de entrevista (individual ou em grupo);
+   * Observações adicionais (ex: documentos a apresentar).
+
+7) O empregador preenche os dados e confirma o agendamento.
+
+8) O sistema registra a entrevista e envia notificações aos refugiados selecionados.
+
+9) Os refugiados confirmam presença ou solicitam reagendamento.
+
+10) O sistema atualiza o status da entrevista com base nas respostas recebidas.
+
+11) O empregador visualiza o cronograma atualizado.
+
+
+### 3. Fluxos Alternativos
+
+#### 3.1 Agendamento
+
+##### 3.1.1 A1 – Entrevista em grupo
+
+* O empregador seleciona vários candidatos para uma mesma sessão de entrevista.
+* O sistema permite configurar um único agendamento coletivo.
+
+##### 3.1.2 A2 – Entrevista remota
+
+* O empregador opta por realizar a entrevista online.
+* O sistema permite inserir o link da videoconferência e instruções de acesso.
+
+
+
+### 4. Fluxos de Exceção
+
+#### 4.1 FE1 – Refugiado não confirma presença
+
+* Se o candidato não responder até o prazo, o sistema envia lembretes.
+* Caso não haja confirmação, o empregador é notificado e pode reagendar ou cancelar a entrevista.
+
+#### 4.2 FE2 – Conflito de horários
+
+* Se o sistema detectar sobreposição com outro compromisso do candidato, sugere horários alternativos.
+* O empregador pode ajustar a agenda ou selecionar outro candidato.
+
+
+### 5. Pré-Condições
+
+5.1 O empregador está registrado e autenticado na plataforma.
+5.2 Existe pelo menos uma oportunidade publicada com candidatos interessados.
+
+
+### 6. Pós-Condições
+
+6.1 A entrevista está registrada no sistema com status atualizado (confirmada ou pendente).
+6.2 Os participantes foram notificados.
+6.3 O empregador tem acesso ao cronograma de entrevistas.
+
+
+### 7. Pontos de Extensão
+
+#### 7.1 Feedback pós-entrevista
+
+**Local:** Após a realização da entrevista
+**Descrição:** O sistema pode permitir ao empregador registrar um breve feedback sobre o desempenho do candidato, auxiliando futuras análises.
+
+
+### 8. Requisitos Especiais
+
+8.1 Interface multilíngue (árabe, inglês e outros idiomas conforme necessário).
+8.2 Suporte a entrevistas online com campos para links externos.
+8.3 Funcionalidade offline para visualização prévia dos agendamentos.
+8.4 Envio de lembretes automáticos aos candidatos com pelo menos 24 horas de antecedência.
+
+
+### 9. Informações Adicionais
+
+* Este caso de uso apoia diretamente os objetivos de criar conexões de trabalho e capacitação e promover a autonomia e dignidade dos refugiados.
+* Diagramas recomendados:
+
+  * Diagrama de Caso de Uso (empregador → organizar entrevistas);
+  * Diagrama de Sequência (interações entre empregador, refugiado e sistema);
+  * Diagrama de Atividades (para detalhamento do processo de agendamento e confirmação).
+
+---
