@@ -121,4 +121,59 @@ Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a p
 
 ---
 
-## Caso de uso 2: 
+## Caso de uso 2: **Agendar Consultas Médicas**
+
+Aluno: Davi Mesquita
+
+### 1.1 Breve Descrição  
+Este caso de uso permite que um refugiado agende uma consulta médica por meio da plataforma HopeBridge, com base em sua localização e nas especialidades disponíveis.
+
+### 1.2 Atores  
+- Refugiado
+
+---
+
+## 2. Fluxo de Eventos
+
+### 2.1 Fluxo Principal  
+1. O usuário acessa a opção "Agendar Consulta Médica" no menu de serviços.  
+2. O sistema solicita a localização atual do usuário.  
+3. O usuário informa sua localização ou permite acesso via GPS.  
+4. O sistema exibe uma lista de unidades de saúde próximas e suas especialidades.  
+5. O usuário seleciona uma unidade de saúde.  
+6. O sistema apresenta os horários disponíveis para agendamento.  
+7. O usuário seleciona um horário e confirma o agendamento.  
+8. O sistema valida a disponibilidade e confirma a consulta.  
+9. O sistema exibe uma mensagem de sucesso.  
+10. O caso de uso é encerrado.
+
+### 2.2 Fluxos de Exceção  
+- **[FE01] Falha na geolocalização:** Se o GPS estiver indisponível, o usuário pode inserir a localização manualmente (retorna ao passo 3).  
+- **[FE02] Horário indisponível:** Se o horário escolhido estiver ocupado, o sistema informa o usuário e permite selecionar outro.  
+- **[FE03] Erro de conexão:** O sistema informa o usuário e permite tentar novamente mais tarde.
+
+---
+
+## 3. Requisitos Especiais  
+- O agendamento deve ser acessível via dispositivos móveis.  
+- A interface deve estar disponível em vários idiomas.  
+- A funcionalidade deve ser compatível com conexões de baixa velocidade.
+
+---
+
+## 4. Regras de Negócio  
+- **[RN01] Validação de disponibilidade:** O sistema deve garantir que o horário escolhido esteja realmente disponível no momento da confirmação.  
+- **[RN02] Cadastro completo:** O usuário só poderá agendar se tiver preenchido as informações básicas de saúde no perfil.
+
+---
+
+## 5. Precondições  
+- O refugiado deve estar autenticado na plataforma.  
+- O perfil do usuário deve conter dados mínimos exigidos (ex: idade, sexo, histórico clínico relevante).
+
+---
+
+## 6. Pós-condições  
+- O agendamento será registrado no histórico do usuário.  
+- A unidade de saúde selecionada será notificada do agendamento.  
+- O usuário poderá visualizar, alterar ou cancelar a consulta posteriormente.
