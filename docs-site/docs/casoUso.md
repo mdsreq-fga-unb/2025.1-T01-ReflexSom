@@ -2,3 +2,123 @@
 
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVIhik4zs=/?embedMode=view_only_without_ui&moveToViewport=-547,-253,1092,505&embedId=162891833483" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
+---
+
+# Especificação casos de uso
+
+## Caso de uso 1: **anunciar oportunidades profissionais**
+
+Aluno: André Gustavo
+
+### 1. Breve Descrição
+
+Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a plataforma HopeBridge para anunciar vagas de emprego ou programas de capacitação profissional voltados aos refugiados palestinos. O objetivo é permitir que oportunidades econômicas sejam registradas no sistema e posteriormente recomendadas aos usuários com perfis compatíveis.
+
+
+### 2. Fluxo Básico de Eventos
+
+**Ator Primário:** Empregador Parceiro
+
+1) O caso de uso inicia quando o empregador parceiro acessa a plataforma HopeBridge com credenciais válidas.
+
+2) O sistema autentica o empregador e apresenta o painel de administração.
+
+3) O empregador seleciona a opção “Anunciar Oportunidade Profissional”.
+
+4) O sistema exibe um formulário com os seguintes campos:
+
+* Tipo de oportunidade (emprego, capacitação ou projeto comunitário);
+
+* Descrição da vaga/curso;
+
+* Localização;
+
+* Pré-requisitos;
+
+* Horário e duração;
+
+* Quantidade de vagas;
+
+* Contato para entrevista ou matrícula.
+
+
+5) O empregador preenche o formulário e submete os dados.
+
+6) O sistema valida os dados e registra a oportunidade na base de dados.
+
+7) O sistema disponibiliza a vaga na plataforma, vinculando-a a perfis de usuários compatíveis.
+
+8) O sistema apresenta uma confirmação ao empregador sobre o sucesso do anúncio.
+
+
+### 3. Fluxos Alternativos
+
+#### 3.1 Preenchimento de Dados
+
+##### 3.1.1 A1 – Inclusão de anexos opcionais
+
+* O empregador pode anexar documentos ou imagens complementares à descrição da vaga.
+* O sistema armazena os anexos junto ao anúncio.
+
+##### 3.1.2 A2 – Reutilização de anúncios anteriores
+
+* O empregador pode optar por reutilizar uma oportunidade já cadastrada anteriormente.
+* O sistema carrega os dados do anúncio anterior, permitindo edição antes da publicação.
+
+
+### 4. Fluxos de Exceção
+
+#### 4.1 FE1 – Dados inválidos no formulário
+
+* O sistema detecta dados inconsistentes ou ausentes (ex.: campos obrigatórios não preenchidos).
+* O sistema destaca os campos com erro e solicita correção ao empregador.
+* O fluxo retorna ao passo 5 do Fluxo Básico.
+
+#### 4.2 FE2 – Falha na comunicação com o servidor
+
+* Caso a conexão com o servidor falhe na hora de enviar o formulário, o sistema salva os dados localmente (modo offline).
+* O empregador é notificado de que a submissão será concluída automaticamente quando a conexão for restabelecida.
+
+
+### 5. Pré-Condições
+
+5.1 O empregador já está registrado e autenticado na plataforma.
+
+5.2 O empregador possui permissões válidas para anunciar oportunidades.
+
+
+### 6. Pós-Condições
+
+6.1 A nova oportunidade profissional está registrada no sistema e disponível para consulta por usuários compatíveis.
+
+6.2 O empregador pode visualizar, editar ou remover o anúncio posteriormente.
+
+
+### 7. Pontos de Extensão
+
+7.1 Notificações automáticas
+
+* Local: Após o passo 7 do Fluxo Básico
+* Definição: O sistema pode notificar refugiados com perfis compatíveis via notificações push ou mensagens internas.
+
+
+### 8. Requisitos Especiais
+
+8.1 A plataforma deve oferecer suporte multilíngue (mínimo: árabe e inglês) para o preenchimento do formulário.
+
+8.2 O sistema deve garantir que os dados dos anúncios sejam armazenados de forma segura e conforme normas de proteção de dados.
+
+8.3 O sistema deve funcionar em modo offline, permitindo a criação e posterior envio do anúncio sem conexão ativa.
+
+
+### 9. Informações Adicionais
+
+* Este caso de uso contribui diretamente para o objetivo específico 3 ("Criar oportunidades econômicas") e o objetivo do aplicativo de “Criar Conexões de Trabalho e Capacitação”.
+* Diagramas auxiliares recomendados:
+
+  * Diagrama de Atividades para mostrar o processo passo a passo.
+  * Diagrama de Caso de Uso com a associação entre Empregador e "Anunciar Oportunidade Profissional".
+
+---
+
+## Caso de uso 2: 
