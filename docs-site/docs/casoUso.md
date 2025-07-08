@@ -290,3 +290,84 @@ Este caso de uso descreve o processo pelo qual um **empregador parceiro** utiliz
   * Diagrama de Atividades (para detalhamento do processo de agendamento e confirmação).
 
 ---
+
+## Caso de uso 4: **Acessar lista personalizada de serviços na região**
+
+Aluno: Mateus de Castro Santos
+
+### 1. Breve Descrição
+
+Este caso de uso permite que o refugiado acesse uma lista de serviços em sua região para o seu bem-estar, incluindo abrigos, assistência médica, além de um detalhamento a respeito desses serviços, como horário de funcionamento, disponibilidade do serviço e capacidade de atendimento.
+
+
+### 2. Fluxo Básico de Eventos
+
+**Ator Primário:** Refugiado
+
+1) O refugiado acessa a aba "Serviços disponíveis".
+
+2) O sistema solicita acesso à localização atual.
+
+3) O refugiado permite acesso à localização.
+
+4) O sistema consulta a base de dados e filtra os serviços disponíveis na região especificada.
+
+5) O sistema apresenta a lista de serviços.
+
+6) O refugiado seleciona o serviço.
+
+7) O sistema exibe os detalhes completos do serviço selecionado.
+
+8) O caso de uso é encerrado.
+
+
+### 3. Fluxos Alternativos
+
+#### 3.1 Localização não autorizada
+
+* O usuário não permite acesso à localização.
+* O sistema exibe um campo para entrada manual da cidade/bairro.
+* O usuário informa a localização desejada.
+* O sistema segue para o passo 4 do Fluxo Básico.
+
+#### 3.2 Falta de vagas
+
+* O usuário seleciona um serviço que está sem vagas.
+* O sistema exibe uma mensagem informando indisponibilidade.
+* O usuário tem a opção de entrar em uma fila de espera.
+* O sistema registra a solicitação e exibe confirmação.
+
+
+### 4. Fluxos de Exceção
+
+#### 4.1 FE1 – Serviços não encontrados
+
+* O sistema não encontra serviços disponíveis na região informada.
+* O sistema exibe a mensagem: "Não há serviços disponíveis na região no momento".
+* O fluxo retorna ao passo 2 do Fluxo Básico.
+
+
+### 5. Pré-Condições
+
+5.1 O usuário (refugiado) deve ter acesso ao sistema (web ou aplicativo).
+
+5.2 O sistema deve estar conectado à internet para realizar a busca por serviços.
+
+5.3 A base de dados de serviços deve estar atualizada e acessível.
+
+
+### 6. Pós-Condições
+
+6.1 O refugiado terá acesso às informações detalhadas dos serviços disponíveis em sua região.
+
+6.2 Caso deseje, poderá entrar na fila de espera de um serviço indisponível.
+
+6.3 O sistema poderá armazenar as preferências ou localização informada para facilitar futuros acessos.
+
+
+### 7. Requisitos Especiais
+
+7.1 O sistema deve estar disponível em múltiplos idiomas, incluindo o idioma nativo do refugiado.
+
+
+---
