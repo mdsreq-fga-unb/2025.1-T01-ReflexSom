@@ -121,9 +121,6 @@ Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a p
 
 ---
 
-<<<<<<< HEAD
-
-=======
 ## Caso de uso 2: **Agendar Consultas Médicas**
 
 Aluno: Davi Mesquita
@@ -180,7 +177,8 @@ Este caso de uso permite que um refugiado agende uma consulta médica por meio d
 - O agendamento será registrado no histórico do usuário.  
 - A unidade de saúde selecionada será notificada do agendamento.  
 - O usuário poderá visualizar, alterar ou cancelar a consulta posteriormente.
->>>>>>> bfd32bd924e71132eac4b23698c3324261e545c1
+
+---
 
 
 ## Caso de uso 3: Organizar Entrevistas
