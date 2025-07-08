@@ -857,6 +857,245 @@
 <h1 id="exercicio-de-construcao-de-um-caso-de-uso-do-estudo-de-caso-hopebridge">Exercício de construção de um caso de uso do estudo de caso HopeBridge</h1>
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVIhik4zs=/?embedMode=view_only_without_ui&moveToViewport=-547,-253,1092,505&embedId=162891833483" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
+<hr />
+<h1 id="especificacao-casos-de-uso">Especificação casos de uso</h1>
+<h2 id="caso-de-uso-1-anunciar-oportunidades-profissionais">Caso de uso 1: <strong>anunciar oportunidades profissionais</strong></h2>
+<p>Aluno: André Gustavo</p>
+<h3 id="1-breve-descricao">1. Breve Descrição</h3>
+<p>Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a plataforma HopeBridge para anunciar vagas de emprego ou programas de capacitação profissional voltados aos refugiados palestinos. O objetivo é permitir que oportunidades econômicas sejam registradas no sistema e posteriormente recomendadas aos usuários com perfis compatíveis.</p>
+<h3 id="2-fluxo-basico-de-eventos">2. Fluxo Básico de Eventos</h3>
+<p><strong>Ator Primário:</strong> Empregador Parceiro</p>
+<p>1) O caso de uso inicia quando o empregador parceiro acessa a plataforma HopeBridge com credenciais válidas.</p>
+<p>2) O sistema autentica o empregador e apresenta o painel de administração.</p>
+<p>3) O empregador seleciona a opção “Anunciar Oportunidade Profissional”.</p>
+<p>4) O sistema exibe um formulário com os seguintes campos:</p>
+<ul>
+<li>
+<p>Tipo de oportunidade (emprego, capacitação ou projeto comunitário);</p>
+</li>
+<li>
+<p>Descrição da vaga/curso;</p>
+</li>
+<li>
+<p>Localização;</p>
+</li>
+<li>
+<p>Pré-requisitos;</p>
+</li>
+<li>
+<p>Horário e duração;</p>
+</li>
+<li>
+<p>Quantidade de vagas;</p>
+</li>
+<li>
+<p>Contato para entrevista ou matrícula.</p>
+</li>
+</ul>
+<p>5) O empregador preenche o formulário e submete os dados.</p>
+<p>6) O sistema valida os dados e registra a oportunidade na base de dados.</p>
+<p>7) O sistema disponibiliza a vaga na plataforma, vinculando-a a perfis de usuários compatíveis.</p>
+<p>8) O sistema apresenta uma confirmação ao empregador sobre o sucesso do anúncio.</p>
+<h3 id="3-fluxos-alternativos">3. Fluxos Alternativos</h3>
+<h4 id="31-preenchimento-de-dados">3.1 Preenchimento de Dados</h4>
+<h5 id="311-a1-inclusao-de-anexos-opcionais">3.1.1 A1 – Inclusão de anexos opcionais</h5>
+<ul>
+<li>O empregador pode anexar documentos ou imagens complementares à descrição da vaga.</li>
+<li>O sistema armazena os anexos junto ao anúncio.</li>
+</ul>
+<h5 id="312-a2-reutilizacao-de-anuncios-anteriores">3.1.2 A2 – Reutilização de anúncios anteriores</h5>
+<ul>
+<li>O empregador pode optar por reutilizar uma oportunidade já cadastrada anteriormente.</li>
+<li>O sistema carrega os dados do anúncio anterior, permitindo edição antes da publicação.</li>
+</ul>
+<h3 id="4-fluxos-de-excecao">4. Fluxos de Exceção</h3>
+<h4 id="41-fe1-dados-invalidos-no-formulario">4.1 FE1 – Dados inválidos no formulário</h4>
+<ul>
+<li>O sistema detecta dados inconsistentes ou ausentes (ex.: campos obrigatórios não preenchidos).</li>
+<li>O sistema destaca os campos com erro e solicita correção ao empregador.</li>
+<li>O fluxo retorna ao passo 5 do Fluxo Básico.</li>
+</ul>
+<h4 id="42-fe2-falha-na-comunicacao-com-o-servidor">4.2 FE2 – Falha na comunicação com o servidor</h4>
+<ul>
+<li>Caso a conexão com o servidor falhe na hora de enviar o formulário, o sistema salva os dados localmente (modo offline).</li>
+<li>O empregador é notificado de que a submissão será concluída automaticamente quando a conexão for restabelecida.</li>
+</ul>
+<h3 id="5-pre-condicoes">5. Pré-Condições</h3>
+<p>5.1 O empregador já está registrado e autenticado na plataforma.</p>
+<p>5.2 O empregador possui permissões válidas para anunciar oportunidades.</p>
+<h3 id="6-pos-condicoes">6. Pós-Condições</h3>
+<p>6.1 A nova oportunidade profissional está registrada no sistema e disponível para consulta por usuários compatíveis.</p>
+<p>6.2 O empregador pode visualizar, editar ou remover o anúncio posteriormente.</p>
+<h3 id="7-pontos-de-extensao">7. Pontos de Extensão</h3>
+<p>7.1 Notificações automáticas</p>
+<ul>
+<li>Local: Após o passo 7 do Fluxo Básico</li>
+<li>Definição: O sistema pode notificar refugiados com perfis compatíveis via notificações push ou mensagens internas.</li>
+</ul>
+<h3 id="8-requisitos-especiais">8. Requisitos Especiais</h3>
+<p>8.1 A plataforma deve oferecer suporte multilíngue (mínimo: árabe e inglês) para o preenchimento do formulário.</p>
+<p>8.2 O sistema deve garantir que os dados dos anúncios sejam armazenados de forma segura e conforme normas de proteção de dados.</p>
+<p>8.3 O sistema deve funcionar em modo offline, permitindo a criação e posterior envio do anúncio sem conexão ativa.</p>
+<h3 id="9-informacoes-adicionais">9. Informações Adicionais</h3>
+<ul>
+<li>Este caso de uso contribui diretamente para o objetivo específico 3 ("Criar oportunidades econômicas") e o objetivo do aplicativo de “Criar Conexões de Trabalho e Capacitação”.</li>
+<li>
+<p>Diagramas auxiliares recomendados:</p>
+</li>
+<li>
+<p>Diagrama de Atividades para mostrar o processo passo a passo.</p>
+</li>
+<li>Diagrama de Caso de Uso com a associação entre Empregador e "Anunciar Oportunidade Profissional".</li>
+</ul>
+<hr />
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
+<p>=======</p>
+<h2 id="caso-de-uso-2-agendar-consultas-medicas">Caso de uso 2: <strong>Agendar Consultas Médicas</strong></h2>
+<p>Aluno: Davi Mesquita</p>
+<h3 id="11-breve-descricao">1.1 Breve Descrição</h3>
+<p>Este caso de uso permite que um refugiado agende uma consulta médica por meio da plataforma HopeBridge, com base em sua localização e nas especialidades disponíveis.</p>
+<h3 id="12-atores">1.2 Atores</h3>
+<ul>
+<li>Refugiado</li>
+</ul>
+<hr />
+<h2 id="2-fluxo-de-eventos">2. Fluxo de Eventos</h2>
+<h3 id="21-fluxo-principal">2.1 Fluxo Principal</h3>
+<ol>
+<li>O usuário acessa a opção "Agendar Consulta Médica" no menu de serviços.  </li>
+<li>O sistema solicita a localização atual do usuário.  </li>
+<li>O usuário informa sua localização ou permite acesso via GPS.  </li>
+<li>O sistema exibe uma lista de unidades de saúde próximas e suas especialidades.  </li>
+<li>O usuário seleciona uma unidade de saúde.  </li>
+<li>O sistema apresenta os horários disponíveis para agendamento.  </li>
+<li>O usuário seleciona um horário e confirma o agendamento.  </li>
+<li>O sistema valida a disponibilidade e confirma a consulta.  </li>
+<li>O sistema exibe uma mensagem de sucesso.  </li>
+<li>O caso de uso é encerrado.</li>
+</ol>
+<h3 id="22-fluxos-de-excecao">2.2 Fluxos de Exceção</h3>
+<ul>
+<li><strong>[FE01] Falha na geolocalização:</strong> Se o GPS estiver indisponível, o usuário pode inserir a localização manualmente (retorna ao passo 3).  </li>
+<li><strong>[FE02] Horário indisponível:</strong> Se o horário escolhido estiver ocupado, o sistema informa o usuário e permite selecionar outro.  </li>
+<li><strong>[FE03] Erro de conexão:</strong> O sistema informa o usuário e permite tentar novamente mais tarde.</li>
+</ul>
+<hr />
+<h2 id="3-requisitos-especiais">3. Requisitos Especiais</h2>
+<ul>
+<li>O agendamento deve ser acessível via dispositivos móveis.  </li>
+<li>A interface deve estar disponível em vários idiomas.  </li>
+<li>A funcionalidade deve ser compatível com conexões de baixa velocidade.</li>
+</ul>
+<hr />
+<h2 id="4-regras-de-negocio">4. Regras de Negócio</h2>
+<ul>
+<li><strong>[RN01] Validação de disponibilidade:</strong> O sistema deve garantir que o horário escolhido esteja realmente disponível no momento da confirmação.  </li>
+<li><strong>[RN02] Cadastro completo:</strong> O usuário só poderá agendar se tiver preenchido as informações básicas de saúde no perfil.</li>
+</ul>
+<hr />
+<h2 id="5-precondicoes">5. Precondições</h2>
+<ul>
+<li>O refugiado deve estar autenticado na plataforma.  </li>
+<li>O perfil do usuário deve conter dados mínimos exigidos (ex: idade, sexo, histórico clínico relevante).</li>
+</ul>
+<hr />
+<h2 id="6-pos-condicoes_1">6. Pós-condições</h2>
+<ul>
+<li>O agendamento será registrado no histórico do usuário.  </li>
+<li>A unidade de saúde selecionada será notificada do agendamento.  </li>
+<li>O usuário poderá visualizar, alterar ou cancelar a consulta posteriormente.<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>bfd32bd924e71132eac4b23698c3324261e545c1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</li>
+</ul>
+<h2 id="caso-de-uso-3-organizar-entrevistas">Caso de uso 3: Organizar Entrevistas</h2>
+<p>Aluna: Clara</p>
+<h3 id="1-breve-descricao_1">1. Breve Descrição</h3>
+<p>Este caso de uso descreve o processo pelo qual um <strong>empregador parceiro</strong> utiliza a plataforma <strong>HopeBridge</strong> para <strong>organizar entrevistas com refugiados</strong> que se candidataram a oportunidades de emprego ou capacitação. A funcionalidade permite o agendamento, envio de convites, confirmação de presença e registro do cronograma, promovendo o contato direto entre empregadores e candidatos.</p>
+<h3 id="2-fluxo-basico-de-eventos_1">2. Fluxo Básico de Eventos</h3>
+<p><strong>Ator Primário:</strong> Empregador Parceiro</p>
+<p>1) O caso de uso inicia quando o empregador acessa a plataforma com credenciais válidas.</p>
+<p>2) O sistema autentica o empregador e exibe o painel de controle.</p>
+<p>3) O empregador acessa a lista de oportunidades anunciadas.</p>
+<p>4) O empregador seleciona uma oportunidade e visualiza a lista de candidatos interessados.</p>
+<p>5) O empregador seleciona um ou mais candidatos para agendar entrevistas.</p>
+<p>6) O sistema exibe um formulário de agendamento com os seguintes campos:</p>
+<ul>
+<li>Data e horário da entrevista;</li>
+<li>Local (presencial) ou link (remoto);</li>
+<li>Tipo de entrevista (individual ou em grupo);</li>
+<li>Observações adicionais (ex: documentos a apresentar).</li>
+</ul>
+<p>7) O empregador preenche os dados e confirma o agendamento.</p>
+<p>8) O sistema registra a entrevista e envia notificações aos refugiados selecionados.</p>
+<p>9) Os refugiados confirmam presença ou solicitam reagendamento.</p>
+<p>10) O sistema atualiza o status da entrevista com base nas respostas recebidas.</p>
+<p>11) O empregador visualiza o cronograma atualizado.</p>
+<h3 id="3-fluxos-alternativos_1">3. Fluxos Alternativos</h3>
+<h4 id="31-agendamento">3.1 Agendamento</h4>
+<h5 id="311-a1-entrevista-em-grupo">3.1.1 A1 – Entrevista em grupo</h5>
+<ul>
+<li>O empregador seleciona vários candidatos para uma mesma sessão de entrevista.</li>
+<li>O sistema permite configurar um único agendamento coletivo.</li>
+</ul>
+<h5 id="312-a2-entrevista-remota">3.1.2 A2 – Entrevista remota</h5>
+<ul>
+<li>O empregador opta por realizar a entrevista online.</li>
+<li>O sistema permite inserir o link da videoconferência e instruções de acesso.</li>
+</ul>
+<h3 id="4-fluxos-de-excecao_1">4. Fluxos de Exceção</h3>
+<h4 id="41-fe1-refugiado-nao-confirma-presenca">4.1 FE1 – Refugiado não confirma presença</h4>
+<ul>
+<li>Se o candidato não responder até o prazo, o sistema envia lembretes.</li>
+<li>Caso não haja confirmação, o empregador é notificado e pode reagendar ou cancelar a entrevista.</li>
+</ul>
+<h4 id="42-fe2-conflito-de-horarios">4.2 FE2 – Conflito de horários</h4>
+<ul>
+<li>Se o sistema detectar sobreposição com outro compromisso do candidato, sugere horários alternativos.</li>
+<li>O empregador pode ajustar a agenda ou selecionar outro candidato.</li>
+</ul>
+<h3 id="5-pre-condicoes_1">5. Pré-Condições</h3>
+<p>5.1 O empregador está registrado e autenticado na plataforma.
+5.2 Existe pelo menos uma oportunidade publicada com candidatos interessados.</p>
+<h3 id="6-pos-condicoes_2">6. Pós-Condições</h3>
+<p>6.1 A entrevista está registrada no sistema com status atualizado (confirmada ou pendente).
+6.2 Os participantes foram notificados.
+6.3 O empregador tem acesso ao cronograma de entrevistas.</p>
+<h3 id="7-pontos-de-extensao_1">7. Pontos de Extensão</h3>
+<h4 id="71-feedback-pos-entrevista">7.1 Feedback pós-entrevista</h4>
+<p><strong>Local:</strong> Após a realização da entrevista
+<strong>Descrição:</strong> O sistema pode permitir ao empregador registrar um breve feedback sobre o desempenho do candidato, auxiliando futuras análises.</p>
+<h3 id="8-requisitos-especiais_1">8. Requisitos Especiais</h3>
+<p>8.1 Interface multilíngue (árabe, inglês e outros idiomas conforme necessário).
+8.2 Suporte a entrevistas online com campos para links externos.
+8.3 Funcionalidade offline para visualização prévia dos agendamentos.
+8.4 Envio de lembretes automáticos aos candidatos com pelo menos 24 horas de antecedência.</p>
+<h3 id="9-informacoes-adicionais_1">9. Informações Adicionais</h3>
+<ul>
+<li>Este caso de uso apoia diretamente os objetivos de criar conexões de trabalho e capacitação e promover a autonomia e dignidade dos refugiados.</li>
+<li>
+<p>Diagramas recomendados:</p>
+</li>
+<li>
+<p>Diagrama de Caso de Uso (empregador → organizar entrevistas);</p>
+</li>
+<li>Diagrama de Sequência (interações entre empregador, refugiado e sistema);</li>
+<li>Diagrama de Atividades (para detalhamento do processo de agendamento e confirmação).</li>
+</ul>
+<hr />
+
 
 
 
