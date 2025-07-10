@@ -58,7 +58,9 @@ Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a p
 ##### 3.1.1 A1 – Reutilização de anúncios anteriores
 
 1) O empregador pode optar por reutilizar uma oportunidade já cadastrada anteriormente.
+
 2) O sistema carrega os dados do anúncio anterior, permitindo edição antes da publicação.
+
 3) O sistema segue para o passo 5 do Fluxo Básico.
 
 ### 4. Fluxos de Exceção
@@ -66,6 +68,7 @@ Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a p
 #### 4.1 FE1 – Dados inválidos no formulário (Passo 5)
 
 1) O sistema detecta dados inconsistentes ou ausentes (ex.: campos obrigatórios não preenchidos).
+
 2) O sistema destaca os campos com erro e exibe uma mensagem de que o processo falhou.
 
 

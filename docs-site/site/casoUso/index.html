@@ -893,33 +893,19 @@
 </li>
 </ul>
 <p>5) O empregador preenche o formulário e submete os dados.</p>
-<p>6) O sistema valida os dados e registra a oportunidade na base de dados.</p>
+<p>6) O sistema valida os dados  (campos obrigatórios, tipo de oportunidade válido e localização reconhecível) e registra a oportunidade na base de dados. </p>
 <p>7) O sistema disponibiliza a vaga na plataforma, vinculando-a a perfis de usuários compatíveis.</p>
 <p>8) O sistema apresenta uma confirmação ao empregador sobre o sucesso do anúncio.</p>
 <h3 id="3-fluxos-alternativos">3. Fluxos Alternativos</h3>
 <h4 id="31-preenchimento-de-dados">3.1 Preenchimento de Dados</h4>
-<h5 id="311-a1-inclusao-de-anexos-opcionais">3.1.1 A1 – Inclusão de anexos opcionais</h5>
-<ul>
-<li>O empregador pode anexar documentos ou imagens complementares à descrição da vaga.</li>
-<li>O sistema armazena os anexos junto ao anúncio.</li>
-</ul>
-<h5 id="312-a2-reutilizacao-de-anuncios-anteriores">3.1.2 A2 – Reutilização de anúncios anteriores</h5>
-<ul>
-<li>O empregador pode optar por reutilizar uma oportunidade já cadastrada anteriormente.</li>
-<li>O sistema carrega os dados do anúncio anterior, permitindo edição antes da publicação.</li>
-</ul>
+<h5 id="311-a1-reutilizacao-de-anuncios-anteriores">3.1.1 A1 – Reutilização de anúncios anteriores</h5>
+<p>1) O empregador pode optar por reutilizar uma oportunidade já cadastrada anteriormente.
+2) O sistema carrega os dados do anúncio anterior, permitindo edição antes da publicação.
+3) O sistema segue para o passo 5 do Fluxo Básico.</p>
 <h3 id="4-fluxos-de-excecao">4. Fluxos de Exceção</h3>
-<h4 id="41-fe1-dados-invalidos-no-formulario">4.1 FE1 – Dados inválidos no formulário</h4>
-<ul>
-<li>O sistema detecta dados inconsistentes ou ausentes (ex.: campos obrigatórios não preenchidos).</li>
-<li>O sistema destaca os campos com erro e solicita correção ao empregador.</li>
-<li>O fluxo retorna ao passo 5 do Fluxo Básico.</li>
-</ul>
-<h4 id="42-fe2-falha-na-comunicacao-com-o-servidor">4.2 FE2 – Falha na comunicação com o servidor</h4>
-<ul>
-<li>Caso a conexão com o servidor falhe na hora de enviar o formulário, o sistema salva os dados localmente (modo offline).</li>
-<li>O empregador é notificado de que a submissão será concluída automaticamente quando a conexão for restabelecida.</li>
-</ul>
+<h4 id="41-fe1-dados-invalidos-no-formulario-passo-5">4.1 FE1 – Dados inválidos no formulário (Passo 5)</h4>
+<p>1) O sistema detecta dados inconsistentes ou ausentes (ex.: campos obrigatórios não preenchidos).
+2) O sistema destaca os campos com erro e exibe uma mensagem de que o processo falhou.</p>
 <h3 id="5-pre-condicoes">5. Pré-Condições</h3>
 <p>5.1 O empregador já está registrado e autenticado na plataforma.</p>
 <p>5.2 O empregador possui permissões válidas para anunciar oportunidades.</p>
