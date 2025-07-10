@@ -42,11 +42,11 @@ Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a p
 * Contato para entrevista ou matrícula.
 
 
-5) O empregador preenche o formulário e submete os dados.
+5) O empregador preenche o formulário e submete os dados. [FE1], [FA1]
 
 6) O sistema valida os dados  (campos obrigatórios, tipo de oportunidade válido e localização reconhecível) e registra a oportunidade na base de dados. 
 
-7) O sistema disponibiliza a vaga na plataforma, vinculando-a a perfis de usuários compatíveis.
+7) O sistema disponibiliza a vaga na plataforma, vinculando-a a perfis de usuários compatíveis. [PE7.1]
 
 8) O sistema apresenta uma confirmação ao empregador sobre o sucesso do anúncio.
 
@@ -55,7 +55,7 @@ Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a p
 
 #### 3.1 Preenchimento de Dados
 
-##### 3.1.1 A1 – Reutilização de anúncios anteriores
+##### 3.1.1 FA1 – Reutilização de anúncios anteriores
 
 1) O empregador pode optar por reutilizar uma oportunidade já cadastrada anteriormente.
 
@@ -88,7 +88,7 @@ Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a p
 
 ### 7. Pontos de Extensão
 
-7.1 Notificações automáticas
+[PE7.1] Notificações automáticas
 
 * Local: Após o passo 7 do Fluxo Básico
 * Definição: O sistema pode notificar refugiados com perfis compatíveis via notificações push ou mensagens internas.
