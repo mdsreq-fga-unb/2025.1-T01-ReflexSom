@@ -44,7 +44,7 @@ Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a p
 
 5) O empregador preenche o formulário e submete os dados.
 
-6) O sistema valida os dados e registra a oportunidade na base de dados.
+6) O sistema valida os dados  (campos obrigatórios, tipo de oportunidade válido e localização reconhecível) e registra a oportunidade na base de dados. 
 
 7) O sistema disponibiliza a vaga na plataforma, vinculando-a a perfis de usuários compatíveis.
 
@@ -55,29 +55,18 @@ Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a p
 
 #### 3.1 Preenchimento de Dados
 
-##### 3.1.1 A1 – Inclusão de anexos opcionais
+##### 3.1.1 A1 – Reutilização de anúncios anteriores
 
-* O empregador pode anexar documentos ou imagens complementares à descrição da vaga.
-* O sistema armazena os anexos junto ao anúncio.
-
-##### 3.1.2 A2 – Reutilização de anúncios anteriores
-
-* O empregador pode optar por reutilizar uma oportunidade já cadastrada anteriormente.
-* O sistema carrega os dados do anúncio anterior, permitindo edição antes da publicação.
-
+1) O empregador pode optar por reutilizar uma oportunidade já cadastrada anteriormente.
+2) O sistema carrega os dados do anúncio anterior, permitindo edição antes da publicação.
+3) O sistema segue para o passo 5 do Fluxo Básico.
 
 ### 4. Fluxos de Exceção
 
-#### 4.1 FE1 – Dados inválidos no formulário
+#### 4.1 FE1 – Dados inválidos no formulário (Passo 5)
 
-* O sistema detecta dados inconsistentes ou ausentes (ex.: campos obrigatórios não preenchidos).
-* O sistema destaca os campos com erro e solicita correção ao empregador.
-* O fluxo retorna ao passo 5 do Fluxo Básico.
-
-#### 4.2 FE2 – Falha na comunicação com o servidor
-
-* Caso a conexão com o servidor falhe na hora de enviar o formulário, o sistema salva os dados localmente (modo offline).
-* O empregador é notificado de que a submissão será concluída automaticamente quando a conexão for restabelecida.
+1) O sistema detecta dados inconsistentes ou ausentes (ex.: campos obrigatórios não preenchidos).
+2) O sistema destaca os campos com erro e exibe uma mensagem de que o processo falhou.
 
 
 ### 5. Pré-Condições

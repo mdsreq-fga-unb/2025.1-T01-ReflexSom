@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.2afb09e1.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -948,8 +948,6 @@
 <li>Diagrama de Caso de Uso com a associação entre Empregador e "Anunciar Oportunidade Profissional".</li>
 </ul>
 <hr />
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
-<p>=======</p>
 <h2 id="caso-de-uso-2-agendar-consultas-medicas">Caso de uso 2: <strong>Agendar Consultas Médicas</strong></h2>
 <p>Aluno: Davi Mesquita</p>
 <h3 id="11-breve-descricao">1.1 Breve Descrição</h3>
@@ -1003,23 +1001,9 @@
 <ul>
 <li>O agendamento será registrado no histórico do usuário.  </li>
 <li>A unidade de saúde selecionada será notificada do agendamento.  </li>
-<li>O usuário poderá visualizar, alterar ou cancelar a consulta posteriormente.<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>bfd32bd924e71132eac4b23698c3324261e545c1</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</li>
+<li>O usuário poderá visualizar, alterar ou cancelar a consulta posteriormente.</li>
 </ul>
+<hr />
 <h2 id="caso-de-uso-3-organizar-entrevistas">Caso de uso 3: Organizar Entrevistas</h2>
 <p>Aluna: Clara</p>
 <h3 id="1-breve-descricao_1">1. Breve Descrição</h3>
@@ -1095,6 +1079,53 @@
 <li>Diagrama de Atividades (para detalhamento do processo de agendamento e confirmação).</li>
 </ul>
 <hr />
+<h2 id="caso-de-uso-4-acessar-lista-personalizada-de-servicos-na-regiao">Caso de uso 4: <strong>Acessar lista personalizada de serviços na região</strong></h2>
+<p>Aluno: Mateus de Castro Santos</p>
+<h3 id="1-breve-descricao_2">1. Breve Descrição</h3>
+<p>Este caso de uso permite que o refugiado acesse uma lista de serviços em sua região para o seu bem-estar, incluindo abrigos, assistência médica, além de um detalhamento a respeito desses serviços, como horário de funcionamento, disponibilidade do serviço e capacidade de atendimento.</p>
+<h3 id="2-fluxo-basico-de-eventos_2">2. Fluxo Básico de Eventos</h3>
+<p><strong>Ator Primário:</strong> Refugiado</p>
+<p>1) O refugiado acessa a aba "Serviços disponíveis".</p>
+<p>2) O sistema solicita acesso à localização atual.</p>
+<p>3) O refugiado permite acesso à localização.</p>
+<p>4) O sistema consulta a base de dados e filtra os serviços disponíveis na região especificada.</p>
+<p>5) O sistema apresenta a lista de serviços.</p>
+<p>6) O refugiado seleciona o serviço.</p>
+<p>7) O sistema exibe os detalhes completos do serviço selecionado.</p>
+<p>8) O caso de uso é encerrado.</p>
+<h3 id="3-fluxos-alternativos_2">3. Fluxos Alternativos</h3>
+<h4 id="31-localizacao-nao-autorizada">3.1 Localização não autorizada</h4>
+<ul>
+<li>O usuário não permite acesso à localização.</li>
+<li>O sistema exibe um campo para entrada manual da cidade/bairro.</li>
+<li>O usuário informa a localização desejada.</li>
+<li>O sistema segue para o passo 4 do Fluxo Básico.</li>
+</ul>
+<h4 id="32-falta-de-vagas">3.2 Falta de vagas</h4>
+<ul>
+<li>O usuário seleciona um serviço que está sem vagas.</li>
+<li>O sistema exibe uma mensagem informando indisponibilidade.</li>
+<li>O usuário tem a opção de entrar em uma fila de espera.</li>
+<li>O sistema registra a solicitação e exibe confirmação.</li>
+</ul>
+<h3 id="4-fluxos-de-excecao_2">4. Fluxos de Exceção</h3>
+<h4 id="41-fe1-servicos-nao-encontrados">4.1 FE1 – Serviços não encontrados</h4>
+<ul>
+<li>O sistema não encontra serviços disponíveis na região informada.</li>
+<li>O sistema exibe a mensagem: "Não há serviços disponíveis na região no momento".</li>
+<li>O fluxo retorna ao passo 2 do Fluxo Básico.</li>
+</ul>
+<h3 id="5-pre-condicoes_2">5. Pré-Condições</h3>
+<p>5.1 O usuário (refugiado) deve ter acesso ao sistema (web ou aplicativo).</p>
+<p>5.2 O sistema deve estar conectado à internet para realizar a busca por serviços.</p>
+<p>5.3 A base de dados de serviços deve estar atualizada e acessível.</p>
+<h3 id="6-pos-condicoes_3">6. Pós-Condições</h3>
+<p>6.1 O refugiado terá acesso às informações detalhadas dos serviços disponíveis em sua região.</p>
+<p>6.2 Caso deseje, poderá entrar na fila de espera de um serviço indisponível.</p>
+<p>6.3 O sistema poderá armazenar as preferências ou localização informada para facilitar futuros acessos.</p>
+<h3 id="7-requisitos-especiais">7. Requisitos Especiais</h3>
+<p>7.1 O sistema deve estar disponível em múltiplos idiomas, incluindo o idioma nativo do refugiado.</p>
+<hr />
 
 
 
@@ -1143,10 +1174,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
     
   </body>
