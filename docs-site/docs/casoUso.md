@@ -42,11 +42,11 @@ Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a p
 * Contato para entrevista ou matrícula.
 
 
-5) O empregador preenche o formulário e submete os dados.
+5) O empregador preenche o formulário e submete os dados. [FE1], [FA1]
 
-6) O sistema valida os dados e registra a oportunidade na base de dados.
+6) O sistema valida os dados  (campos obrigatórios, tipo de oportunidade válido e localização reconhecível) e registra a oportunidade na base de dados. 
 
-7) O sistema disponibiliza a vaga na plataforma, vinculando-a a perfis de usuários compatíveis.
+7) O sistema disponibiliza a vaga na plataforma, vinculando-a a perfis de usuários compatíveis. [PE7.1]
 
 8) O sistema apresenta uma confirmação ao empregador sobre o sucesso do anúncio.
 
@@ -55,29 +55,21 @@ Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a p
 
 #### 3.1 Preenchimento de Dados
 
-##### 3.1.1 A1 – Inclusão de anexos opcionais
+##### 3.1.1 FA1 – Reutilização de anúncios anteriores
 
-* O empregador pode anexar documentos ou imagens complementares à descrição da vaga.
-* O sistema armazena os anexos junto ao anúncio.
+1) O empregador pode optar por reutilizar uma oportunidade já cadastrada anteriormente.
 
-##### 3.1.2 A2 – Reutilização de anúncios anteriores
+2) O sistema carrega os dados do anúncio anterior, permitindo edição antes da publicação.
 
-* O empregador pode optar por reutilizar uma oportunidade já cadastrada anteriormente.
-* O sistema carrega os dados do anúncio anterior, permitindo edição antes da publicação.
-
+3) O sistema segue para o passo 5 do Fluxo Básico.
 
 ### 4. Fluxos de Exceção
 
-#### 4.1 FE1 – Dados inválidos no formulário
+#### 4.1 FE1 – Dados inválidos no formulário (Passo 5)
 
-* O sistema detecta dados inconsistentes ou ausentes (ex.: campos obrigatórios não preenchidos).
-* O sistema destaca os campos com erro e solicita correção ao empregador.
-* O fluxo retorna ao passo 5 do Fluxo Básico.
+1) O sistema detecta dados inconsistentes ou ausentes (ex.: campos obrigatórios não preenchidos).
 
-#### 4.2 FE2 – Falha na comunicação com o servidor
-
-* Caso a conexão com o servidor falhe na hora de enviar o formulário, o sistema salva os dados localmente (modo offline).
-* O empregador é notificado de que a submissão será concluída automaticamente quando a conexão for restabelecida.
+2) O sistema destaca os campos com erro e exibe uma mensagem de que o processo falhou.
 
 
 ### 5. Pré-Condições
@@ -96,7 +88,7 @@ Este caso de uso descreve o processo pelo qual um empregador parceiro acessa a p
 
 ### 7. Pontos de Extensão
 
-7.1 Notificações automáticas
+[PE7.1] Notificações automáticas
 
 * Local: Após o passo 7 do Fluxo Básico
 * Definição: O sistema pode notificar refugiados com perfis compatíveis via notificações push ou mensagens internas.
@@ -288,5 +280,86 @@ Este caso de uso descreve o processo pelo qual um **empregador parceiro** utiliz
   * Diagrama de Caso de Uso (empregador → organizar entrevistas);
   * Diagrama de Sequência (interações entre empregador, refugiado e sistema);
   * Diagrama de Atividades (para detalhamento do processo de agendamento e confirmação).
+
+---
+
+## Caso de uso 4: **Acessar lista personalizada de serviços na região**
+
+Aluno: Mateus de Castro Santos
+
+### 1. Breve Descrição
+
+Este caso de uso permite que o refugiado acesse uma lista de serviços em sua região para o seu bem-estar, incluindo abrigos, assistência médica, além de um detalhamento a respeito desses serviços, como horário de funcionamento, disponibilidade do serviço e capacidade de atendimento.
+
+
+### 2. Fluxo Básico de Eventos
+
+**Ator Primário:** Refugiado
+
+1) O refugiado acessa a aba "Serviços disponíveis".
+
+2) O sistema solicita acesso à localização atual.
+
+3) O refugiado permite acesso à localização.
+
+4) O sistema consulta a base de dados e filtra os serviços disponíveis na região especificada.
+
+5) O sistema apresenta a lista de serviços.
+
+6) O refugiado seleciona o serviço.
+
+7) O sistema exibe os detalhes completos do serviço selecionado.
+
+8) O caso de uso é encerrado.
+
+
+### 3. Fluxos Alternativos
+
+#### 3.1 Localização não autorizada
+
+* O usuário não permite acesso à localização.
+* O sistema exibe um campo para entrada manual da cidade/bairro.
+* O usuário informa a localização desejada.
+* O sistema segue para o passo 4 do Fluxo Básico.
+
+#### 3.2 Falta de vagas
+
+* O usuário seleciona um serviço que está sem vagas.
+* O sistema exibe uma mensagem informando indisponibilidade.
+* O usuário tem a opção de entrar em uma fila de espera.
+* O sistema registra a solicitação e exibe confirmação.
+
+
+### 4. Fluxos de Exceção
+
+#### 4.1 FE1 – Serviços não encontrados
+
+* O sistema não encontra serviços disponíveis na região informada.
+* O sistema exibe a mensagem: "Não há serviços disponíveis na região no momento".
+* O fluxo retorna ao passo 2 do Fluxo Básico.
+
+
+### 5. Pré-Condições
+
+5.1 O usuário (refugiado) deve ter acesso ao sistema (web ou aplicativo).
+
+5.2 O sistema deve estar conectado à internet para realizar a busca por serviços.
+
+5.3 A base de dados de serviços deve estar atualizada e acessível.
+
+
+### 6. Pós-Condições
+
+6.1 O refugiado terá acesso às informações detalhadas dos serviços disponíveis em sua região.
+
+6.2 Caso deseje, poderá entrar na fila de espera de um serviço indisponível.
+
+6.3 O sistema poderá armazenar as preferências ou localização informada para facilitar futuros acessos.
+
+
+### 7. Requisitos Especiais
+
+7.1 O sistema deve estar disponível em múltiplos idiomas, incluindo o idioma nativo do refugiado.
+
 
 ---

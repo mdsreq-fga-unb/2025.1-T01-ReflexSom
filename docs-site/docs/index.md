@@ -10,24 +10,24 @@ O projeto Reflex Som é um projeto desenvolvido durante o semestre 2025.1 na dis
 
 <table style="text-align: center;">
   <tr>
-    <td><strong>Alisson Batista</strong></td>
     <td><strong>Mateus de Castro Santos</strong></td>
     <td><strong>Davi Mesquita Sousa</strong></td>
-  </tr>
-  <tr>
-    <td><img src="imagens/alissonreflexdevs.jpeg" class="img-circular"></td>
-    <td><img src="imagens/mateusreflexdevs.jpeg" class="img-circular"></td>
-    <td><img src="imagens/fotoDePerfil.jpg" class="img-circular"></td>
-  </tr>
-  <tr>
-    <td><strong>Ana Luiza Komatsu Aroeira</strong></td>
-    <td><strong>Maria Clara Alves de Sousa</strong></td>
     <td><strong>André Gustavo Rabelo do Nascimento</strong></td>
   </tr>
   <tr>
-    <td><img src="imagens/anareflexdevs.jpeg" class="img-circular"></td>
-    <td><img src="imagens/clarareflexdevs.jpeg" class="img-circular"></td>
+    <td><img src="imagens/mateusreflexdevs.jpeg" class="img-circular"></td>
+    <td><img src="imagens/fotoDePerfil.jpg" class="img-circular"></td>
     <td><img src="imagens/andrereflexdevs.jpeg" class="img-circular"></td>
+  </tr>
+  <tr>
+    <td><strong>Ana Luiza Komatsu Aroeira</strong></td>
+    <td><strong></strong></td>
+    <td><strong>Maria Clara Alves de Sousa</strong></td>
+  </tr>
+  <tr>
+    <td><img src="imagens/anareflexdevs.jpeg" class="img-circular"></td>
+    <td><img src="" class=""></td>
+    <td><img src="imagens/clarareflexdevs.jpeg" class="img-circular"></td>
   </tr>
 </table>
 

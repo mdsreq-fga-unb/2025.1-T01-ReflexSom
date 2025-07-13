@@ -29,10 +29,10 @@
 
 ## Transição
 
-| Iteração | Início     | Fim        | Objetivos e entregas esperadas                              | Casos de Uso Relacionados                              |
-|----------|------------|------------|-------------------------------------------------------------|--------------------------------------------------------|
-| T1       | 07/07/2025 | 13/07/2025 | Disponibilizar projeto para uso e coleta de feedbacks       | Aprovar reserva solicitada, Consultar agenda de eventos, Cancelar reserva já agendada |
-| T2       | 14/07/2025 | 20/07/2025 | Encerramento do projeto, entrega final ao cliente            | Cadastrar equipamento na lista de equipamentos, Remover equipamento da lista de equipamentos, Remover equipamentos do carrinho |
+| Iteração | Início     | Fim        | Objetivos e entregas esperadas | Casos de Uso Relacionados |
+|----------|------------|------------|--------------------------------|---------------------------|
+| T1       | 07/07/2025 | 13/07/2025 | Disponibilizar projeto para uso e coleta de feedbacks       | - |
+| T2       | 14/07/2025 | 20/07/2025 | Encerramento do projeto, entrega final ao cliente            | - |
 
 
 <!-- | Fase do OpenUp | Iteração | Início      | Fim         | Objetivos e entregas esperadas                                                                 |

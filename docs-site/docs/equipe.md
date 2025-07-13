@@ -6,7 +6,7 @@ A equipe do projeto foi estruturada com base nos princípios do OpenUP e em uma 
 |-------|-----------|-------------|----------------|
 | Gerente de Projeto | Responsável pelo planejamento do projeto, definição e acompanhamento do cronograma, facilitação das reuniões, controle de riscos e comunicação direta com o cliente. Atua também como elo entre as diferentes áreas do projeto, garantindo o alinhamento entre todos. | Davi | --- |
 | Desenvolvedor Back-End | Responsável pela construção da lógica do sistema, criação de APIs, integração com bancos de dados e implementação das regras de negócio. Trabalha para garantir que os dados trafeguem corretamente entre o front-end, os serviços externos e os sistemas de armazenamento. | André | Davi |
-| Desenvolvedor Front-End | Responsável pela implementação das interfaces do sistema, seguindo os requisitos de usabilidade e acessibilidade. Atua na transformação de protótipos e especificações em páginas funcionais, garantindo boa experiência para o usuário. | --- | Clara |
+| Desenvolvedor Front-End | Responsável pela implementação das interfaces do sistema, seguindo os requisitos de usabilidade e acessibilidade. Atua na transformação de protótipos e especificações em páginas funcionais, garantindo boa experiência para o usuário. | Clara | --- |
 | Analista de Requisitos | Atua na elicitação, análise, documentação e validação dos requisitos do sistema junto ao cliente. Garante que os requisitos estejam claros e compreendidos pela equipe, sendo também responsável por mantê-los atualizados ao longo do projeto. | Ana | Demais membros  
 | Especialista em Dados e Integrações | Responsável por estruturar os dados que serão utilizados pelo sistema, além de desenvolver e manter integrações com fontes externas. Atua no mapeamento dos dados necessários, tratamento de inconsistências e suporte à equipe de back-end nas tarefas de integração. | Mateus | Ana |
 
@@ -36,9 +36,18 @@ A equipe do projeto foi estruturada com base nos princípios do OpenUP e em uma 
 
 ## Processo de Validação
 
-O processo de validação seguirá uma abordagem iterativa e incremental, em conformidade com os princípios do OpenUP, buscando garantir que cada entrega esteja alinhada com as expectativas do cliente e com os requisitos previamente definidos. Esse processo será dividido em três etapas principais:
+O processo de validação seguirá uma abordagem iterativa e incremental, em conformidade com os princípios do OpenUP, buscando garantir que cada entrega esteja alinhada com as expectativas do cliente e com os requisitos previamente definidos. Esse processo será realizado por meio de:
 
-### Validação de Prontidão (Definition of Ready - DoR)
+
+### Validação Externa (com o Cliente)
+
+- O cliente será convidado a participar da avaliação de cada entrega significativa (totalizando cinco ao longo do projeto), com base nos critérios acordados inicialmente;
+- Durante essas reuniões, o cliente poderá verificar o progresso do projeto, identificar eventuais desvios ou sugerir alterações;
+- O feedback recebido será analisado e, quando necessário, incorporado nas próximas sprints, com possível realinhamento das prioridades e escopo.
+
+Este processo visa garantir que as entregas evoluam de forma estruturada e progressiva, permitindo ao cliente visualizar com clareza o avanço do projeto e contribuir ativamente para sua qualidade final.
+
+<!-- ### Validação de Prontidão (Definition of Ready - DoR)
 
 Antes de iniciar o desenvolvimento de uma funcionalidade, a equipe confirmará que:
 
@@ -52,12 +61,4 @@ A funcionalidade será considerada concluída apenas quando:
 
 - For validada visual e funcionalmente pela equipe, assegurando que o comportamento esteja de acordo com os critérios de aceitação;
 - Estiver documentada de forma adequada, com instruções de uso e informações relevantes para entendimento e manutenção;
-- Estiver pronta para ser apresentada ao cliente como parte da entrega da sprint.
-
-### Validação Externa (com o Cliente)
-
-- O cliente será convidado a participar da avaliação de cada entrega significativa (totalizando cinco ao longo do projeto), com base nos critérios acordados inicialmente;
-- Durante essas reuniões, o cliente poderá verificar o progresso do projeto, identificar eventuais desvios ou sugerir alterações;
-- O feedback recebido será analisado e, quando necessário, incorporado nas próximas sprints, com possível realinhamento das prioridades e escopo.
-
-Este processo visa garantir que as entregas evoluam de forma estruturada e progressiva, permitindo ao cliente visualizar com clareza o avanço do projeto e contribuir ativamente para sua qualidade final.
+- Estiver pronta para ser apresentada ao cliente como parte da entrega da sprint. -->

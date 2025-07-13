@@ -56,7 +56,7 @@
 | **Elaboração**  | Análise e Consenso | Definição de MVP | Negociação | [MVP](mvp.md) |
 |   | Declaração de Requisitos  |    | Casos de Uso  |  [Casos de Uso](diagramas.md)  |
 |   | Representação de Requisitos | UML  | Diagrama (UML)  | [Diagrama de atividade](diagramas.md) |
-|   | Verificação e Validação   | Revisão técnica e validação  |  DoR;DoD | DoR/DoD
+|   | Verificação e Validação   | Revisão técnica e validação  |  DoR; DoD | [DoR/DoD](dordod.md)
 |   | Organização e Atualização | Relacionamento entre requisitos e objetivos  | Mapa de Rastreabilidade | [Mapa de relações entre os Requisitos](mapRast.md)
 |   | Organização e Atualização | Priorização da Lista de Requisitos  |  MoSCoW e ICE Scoring | [Lista de requisitos priorizada](mvp.md)
 | **Construção**  | Verificação e Validação de Requisitos | Revisão técnica e validação | DoR; DoD  | [DoR/DoD](dordod.md)

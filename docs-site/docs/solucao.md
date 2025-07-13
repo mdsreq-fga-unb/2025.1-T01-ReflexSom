@@ -6,6 +6,17 @@ Por meio de uma plataforma digital que automatize e integre os processos de gest
 - **Gestão**: dificuldade de controle em eventos simultâneos; Falta de visão em tempo real da operação;
 - **Comunicação**: respostas aos clientes pouco padronizadas; Falta de integração entre atendimento e catálogo.
 
+Portanto, os objetivos específicos são:
+
+- **OE 1**: Elaboração automatizada de orçamentos.
+- **OE 2**: Realizar agendamentos técnicos centralizadamente.
+- **OE 3**: Padronizar atendimentos.
+- **OE 4**: Catalogar equipamentos de forma automatizada.
+- **OE 5**: Eliminar dependência de interação direta com a equipe.
+- **OE 6**: Prover visão em tempo real da operação.
+- **OE 7**: Fornecer respostas padronizadas aos clientes.
+- **OE 8**: Integrar atendimento e catálogo.
+
 ---
 
 ## Características da Solução
@@ -32,9 +43,6 @@ Permitir aos funcionários o acesso a um painel administrativo interno com contr
 
 **Frontend:**  
 - React.js (site e painel do cliente)
-
-<!-- **Design:**  
-- Figma (prototipação) -->
 
 **Backend:**  
 - Python com Django e Django Rest Framework
