@@ -25,7 +25,7 @@
 | C3       | 09/06/2025 | 15/06/2025 | Desenvolvimento: atualização/edição de dados do cliente, logoff. Validação dos requisitos implementados. | Editar os dados pessoais cadastrados do cliente, Realizar logoff do cliente |
 | C4       | 16/06/2025 | 22/06/2025 | Desenvolvimento: listagem, busca e detalhamento de equipamentos. Ajustes nos requisitos conforme testes. | Cadastrar equipamento na lista de equipamentos |
 | C5       | 23/06/2025 | 29/06/2025 | Desenvolvimento: endpoint para detalhes de equipamento e adicionar ao carrinho. Revisão dos requisitos relacionados. | Realizar consulta de equipamentos; Detalhar informações do equipamento|
-| C6       | 30/06/2025 | 06/07/2025 | Desenvolvimento: visualização de relatórios de reservas e testes. Ajustes finais de requisitos e testes integrados. | Adicionar equipamentos ao carrinho |
+| C6       | 30/06/2025 | 06/07/2025 | Desenvolvimento: visualização de relatórios de reservas e testes. Ajustes finais de requisitos e testes integrados. | Adicionar equipamentos ao carrinho; Criar orçamento de uma reserva; Realizar reservas |
 
 ## Transição
 
