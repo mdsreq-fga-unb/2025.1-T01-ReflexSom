@@ -14,8 +14,7 @@ Portanto, os objetivos específicos são:
 - **OE 4**: Catalogar equipamentos de forma automatizada.
 - **OE 5**: Eliminar dependência de interação direta com a equipe.
 - **OE 6**: Prover visão em tempo real da operação.
-- **OE 7**: Fornecer respostas padronizadas aos clientes.
-- **OE 8**: Integrar atendimento e catálogo.
+- **OE 7**: Integrar atendimento e catálogo.
 
 ---
 
