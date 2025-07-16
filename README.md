@@ -86,47 +86,6 @@ O sistema foi desenvolvido seguindo uma arquitetura modular que permite:
 - **Manutenibilidade** com impacto mínimo entre módulos
 - **Integração** entre diferentes funcionalidades
 
-## Impacto Esperado
-
-### Redução no Tempo de Resposta
-- Redução de até 1 dia útil para 4 horas no tempo médio de resposta
-- Aumento de 10% nas conversões de orçamento nos primeiros 3 meses
-
-### Melhoria no Controle Operacional
-- Redução de 80% nos conflitos de agenda
-- Controle em tempo real da disponibilidade de equipamentos
-
-### Aumento da Presença Digital
-- Meta de 100 visitantes por mês no primeiro trimestre
-- Geração de pelo menos 5 novos pedidos de orçamento mensais via site
-
-### Padronização de Processos
-- Redução do tempo de treinamento de novos operadores de 2 semanas para 5 dias úteis
-
-## Aprendizados da Disciplina
-
-Este projeto foi fundamental para aplicar e consolidar os conceitos aprendidos em **Engenharia de Requisitos de Software**:
-
-### **Elicitação e Análise de Requisitos**
-- Técnicas práticas de levantamento de requisitos com stakeholders reais
-- Identificação de problemas e oportunidades de melhoria
-- Análise de impacto e priorização de funcionalidades
-
-### **Especificação e Documentação**
-- Criação de casos de uso detalhados e completos
-- Especificação de requisitos funcionais e não funcionais
-- Uso de frameworks como URPS+ e Sommerville para organização
-
-### **Validação e Verificação**
-- Processos de validação com o cliente
-- Verificação de consistência e completude dos requisitos
-- Aplicação de critérios de aceitação
-
-### **Gestão de Requisitos**
-- Controle de mudanças e evolução dos requisitos
-- Rastreabilidade entre requisitos e implementação
-- Gerenciamento de dependências entre funcionalidades
-
 
 ## Links Importantes
 
