@@ -18,7 +18,7 @@ A proposta é oferecer uma solução unificada e acessível, com foco em **organ
 
 ![pbb](imagens/KanbanFramework.jpg)
 
-[Abrir PDF](imagens/KanbanFramework.pdf)
+[Abrir PDF](arquivos/KanbanFramework.pdf)
 
 ---
 

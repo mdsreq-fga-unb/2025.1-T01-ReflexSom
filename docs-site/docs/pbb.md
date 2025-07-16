@@ -11,7 +11,7 @@ Utilizamos o Product Backlog Building (PBB) para construir o Product Backlog da 
 
 ![pbb](imagens/PBB.jpg)
 
-[Abrir PDF](imagens/PBB.pdf)
+[Abrir PDF](arquivos/PBB.pdf)
 
 ---
 
